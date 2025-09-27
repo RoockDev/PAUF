@@ -19,3 +19,12 @@ class Villano(Personaje):
             self.ausencias +
             self.ausencias
         ) / 4
+
+    def __str__(self):
+        return (f"Villano: {self.nombre} {self.apellidos} "
+                f"(ID: {self.identificador}, Edad: {self.calcular_edad()})\n"
+                f"  Chagepeteador: {self.chagepeteador}\n"
+                f"  Entregador Tardío: {self.entregador_tardio}\n"
+                f"  Ausencias: {self.ausencias}\n"
+                f"  Hablador: {self.hablador}\n"
+                f"  Puntuación Total: {self.puntuacion_total:.2f}")

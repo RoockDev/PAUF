@@ -1,0 +1,769 @@
+2025-09-27 18:57:49,795 - INFO -personaje añadido: HeroeTest1 ApellidoTest1 (ID: 0)
+2025-09-27 18:57:49,796 - INFO -Heroe creado: HeroeTest1 ApellidoTest1
+2025-09-27 18:58:18,302 - INFO -personaje añadido: VillanoTest1 VillanoTest2 (ID: 0)
+2025-09-27 18:58:18,302 - INFO -Villano creado: VillanoTest1 VillanoTest2
+2025-09-27 18:58:31,599 - INFO -personaje añadido: Vinicius Tchouaméni (ID: 0)
+2025-09-27 18:58:31,599 - INFO -Heroe creado: Vinicius Tchouaméni
+2025-09-27 18:58:47,822 - ERROR -Error en el menú: invalid literal for int() with base 10: ''
+2025-09-27 18:58:47,822 - ERROR -Error en el menú: invalid literal for int() with base 10: ''
+2025-09-27 18:59:03,054 - INFO -Personajes listados
+2025-09-27 18:59:10,794 - INFO -personaje añadido: Eric Araujo (ID: 0)
+2025-09-27 18:59:10,796 - INFO -Villano creado: Eric Araujo
+2025-09-27 18:59:16,149 - INFO -Personajes listados
+2025-09-27 18:59:57,483 - INFO -Personajes listados
+2025-09-27 19:00:28,081 - INFO -Buscando personajes por nombre: 'Vinicius'
+2025-09-27 19:03:31,727 - INFO -Buscando personajes con el atributo vinicius entre 20 y 40
+2025-09-27 19:03:48,039 - WARNING -No hay heroes o villanos para emparejar
+2025-09-27 19:03:48,040 - ERROR -Error al emparejar pelea de heroe vs villano: Cannot choose from an empty sequence
+2025-09-27 19:03:48,040 - ERROR -Error al gestionar la opcion de la simulacion cannot unpack non-iterable NoneType object
+2025-09-27 19:03:55,915 - WARNING -No hay heroes o villanos para emparejar
+2025-09-27 19:03:55,915 - ERROR -Error al emparejar pelea de heroe vs villano: Cannot choose from an empty sequence
+2025-09-27 19:03:55,915 - ERROR -Error al gestionar la opcion de la simulacion cannot unpack non-iterable NoneType object
+2025-09-27 19:03:57,061 - WARNING -No hay heroes o villanos para emparejar
+2025-09-27 19:03:57,062 - ERROR -Error al emparejar pelea de heroe vs villano: Cannot choose from an empty sequence
+2025-09-27 19:03:57,062 - ERROR -Error al gestionar la opcion de la simulacion cannot unpack non-iterable NoneType object
+2025-09-27 19:03:57,939 - WARNING -No hay heroes o villanos para emparejar
+2025-09-27 19:03:57,939 - ERROR -Error al emparejar pelea de heroe vs villano: Cannot choose from an empty sequence
+2025-09-27 19:03:57,939 - ERROR -Error al gestionar la opcion de la simulacion cannot unpack non-iterable NoneType object
+2025-09-27 19:03:58,816 - WARNING -No hay heroes o villanos para emparejar
+2025-09-27 19:03:58,816 - ERROR -Error al emparejar pelea de heroe vs villano: Cannot choose from an empty sequence
+2025-09-27 19:03:58,816 - ERROR -Error al gestionar la opcion de la simulacion cannot unpack non-iterable NoneType object
+2025-09-27 19:03:59,942 - WARNING -No hay heroes o villanos para emparejar
+2025-09-27 19:03:59,942 - ERROR -Error al emparejar pelea de heroe vs villano: Cannot choose from an empty sequence
+2025-09-27 19:03:59,942 - ERROR -Error al gestionar la opcion de la simulacion cannot unpack non-iterable NoneType object
+2025-09-27 19:04:00,639 - WARNING -No hay heroes o villanos para emparejar
+2025-09-27 19:04:00,639 - ERROR -Error al emparejar pelea de heroe vs villano: Cannot choose from an empty sequence
+2025-09-27 19:04:00,639 - ERROR -Error al gestionar la opcion de la simulacion cannot unpack non-iterable NoneType object
+2025-09-27 19:04:01,178 - WARNING -No hay heroes o villanos para emparejar
+2025-09-27 19:04:01,178 - ERROR -Error al emparejar pelea de heroe vs villano: Cannot choose from an empty sequence
+2025-09-27 19:04:01,178 - ERROR -Error al gestionar la opcion de la simulacion cannot unpack non-iterable NoneType object
+2025-09-27 19:04:02,867 - INFO -Personajes listados
+2025-09-27 19:04:17,964 - INFO -personaje añadido: Lunin Rudiger (ID: 0)
+2025-09-27 19:04:17,964 - INFO -Heroe creado: Lunin Rudiger
+2025-09-27 19:04:18,684 - INFO -personaje añadido: Éder Ceballos (ID: 0)
+2025-09-27 19:04:18,684 - INFO -Heroe creado: Éder Ceballos
+2025-09-27 19:04:19,178 - INFO -personaje añadido: Aurélien Rodrygo (ID: 0)
+2025-09-27 19:04:19,178 - INFO -Heroe creado: Aurélien Rodrygo
+2025-09-27 19:04:19,451 - INFO -personaje añadido: Rudiger Vinicius (ID: 0)
+2025-09-27 19:04:19,451 - INFO -Heroe creado: Rudiger Vinicius
+2025-09-27 19:04:19,719 - INFO -personaje añadido: Federico Éder (ID: 0)
+2025-09-27 19:04:19,719 - INFO -Heroe creado: Federico Éder
+2025-09-27 19:04:19,967 - INFO -personaje añadido: Rodrygo Rudiger (ID: 0)
+2025-09-27 19:04:19,968 - INFO -Heroe creado: Rodrygo Rudiger
+2025-09-27 19:04:22,037 - INFO -personaje añadido: Lunin Rodrygo (ID: 0)
+2025-09-27 19:04:22,037 - INFO -Heroe creado: Lunin Rodrygo
+2025-09-27 19:04:22,283 - INFO -personaje añadido: Kylian Kroos (ID: 0)
+2025-09-27 19:04:22,283 - INFO -Heroe creado: Kylian Kroos
+2025-09-27 19:04:22,668 - INFO -personaje añadido: Fran Rudiger (ID: 0)
+2025-09-27 19:04:22,668 - INFO -Heroe creado: Fran Rudiger
+2025-09-27 19:04:22,959 - INFO -personaje añadido: Dani Carvajal (ID: 0)
+2025-09-27 19:04:22,959 - INFO -Heroe creado: Dani Carvajal
+2025-09-27 19:04:23,252 - INFO -personaje añadido: Éder Tchouaméni (ID: 0)
+2025-09-27 19:04:23,252 - INFO -Heroe creado: Éder Tchouaméni
+2025-09-27 19:04:23,500 - INFO -personaje añadido: Fran Carvajal (ID: 0)
+2025-09-27 19:04:23,500 - INFO -Heroe creado: Fran Carvajal
+2025-09-27 19:04:23,747 - INFO -personaje añadido: Thibaut Rudiger (ID: 0)
+2025-09-27 19:04:23,747 - INFO -Heroe creado: Thibaut Rudiger
+2025-09-27 19:04:23,995 - INFO -personaje añadido: Arda Kroos (ID: 0)
+2025-09-27 19:04:23,995 - INFO -Heroe creado: Arda Kroos
+2025-09-27 19:04:24,242 - INFO -personaje añadido: David Rudiger (ID: 0)
+2025-09-27 19:04:24,242 - INFO -Heroe creado: David Rudiger
+2025-09-27 19:04:24,511 - INFO -personaje añadido: Endrick Rodrygo (ID: 0)
+2025-09-27 19:04:24,512 - INFO -Heroe creado: Endrick Rodrygo
+2025-09-27 19:04:24,714 - INFO -personaje añadido: Rodrygo Militão (ID: 0)
+2025-09-27 19:04:24,714 - INFO -Heroe creado: Rodrygo Militão
+2025-09-27 19:04:24,962 - INFO -personaje añadido: Endrick Bellingham (ID: 0)
+2025-09-27 19:04:24,963 - INFO -Heroe creado: Endrick Bellingham
+2025-09-27 19:04:25,320 - ERROR -Error en el menú: invalid literal for int() with base 10: ''
+2025-09-27 19:04:25,592 - INFO -personaje añadido: Endrick Militão (ID: 0)
+2025-09-27 19:04:25,592 - INFO -Heroe creado: Endrick Militão
+2025-09-27 19:04:25,883 - INFO -personaje añadido: Toni Kroos (ID: 0)
+2025-09-27 19:04:25,883 - INFO -Heroe creado: Toni Kroos
+2025-09-27 19:04:26,154 - INFO -personaje añadido: Toni Vinicius (ID: 0)
+2025-09-27 19:04:26,154 - INFO -Heroe creado: Toni Vinicius
+2025-09-27 19:04:26,379 - INFO -personaje añadido: Rodrygo Kroos (ID: 0)
+2025-09-27 19:04:26,379 - INFO -Heroe creado: Rodrygo Kroos
+2025-09-27 19:04:26,649 - INFO -personaje añadido: Thibaut Kroos (ID: 0)
+2025-09-27 19:04:26,649 - INFO -Heroe creado: Thibaut Kroos
+2025-09-27 19:04:26,876 - INFO -personaje añadido: Fran Alaba (ID: 0)
+2025-09-27 19:04:26,876 - INFO -Heroe creado: Fran Alaba
+2025-09-27 19:04:27,098 - INFO -personaje añadido: Thibaut Ceballos (ID: 0)
+2025-09-27 19:04:27,098 - INFO -Heroe creado: Thibaut Ceballos
+2025-09-27 19:04:27,324 - INFO -personaje añadido: Jesús Bellingham (ID: 0)
+2025-09-27 19:04:27,324 - INFO -Heroe creado: Jesús Bellingham
+2025-09-27 19:04:27,572 - INFO -personaje añadido: Federico Camavinga (ID: 0)
+2025-09-27 19:04:27,572 - INFO -Heroe creado: Federico Camavinga
+2025-09-27 19:04:27,775 - INFO -personaje añadido: David Militão (ID: 0)
+2025-09-27 19:04:27,775 - INFO -Heroe creado: David Militão
+2025-09-27 19:04:27,999 - INFO -personaje añadido: Kylian Militão (ID: 0)
+2025-09-27 19:04:27,999 - INFO -Heroe creado: Kylian Militão
+2025-09-27 19:04:28,809 - INFO -personaje añadido: Federico Militão (ID: 0)
+2025-09-27 19:04:28,810 - INFO -Heroe creado: Federico Militão
+2025-09-27 19:04:29,170 - INFO -personaje añadido: Robert Pérez (ID: 0)
+2025-09-27 19:04:29,170 - INFO -Villano creado: Robert Pérez
+2025-09-27 19:04:29,440 - INFO -personaje añadido: Frenkie Félix (ID: 0)
+2025-09-27 19:04:29,441 - INFO -Villano creado: Frenkie Félix
+2025-09-27 19:04:29,688 - INFO -personaje añadido: Ilias Yamal (ID: 0)
+2025-09-27 19:04:29,688 - INFO -Villano creado: Ilias Yamal
+2025-09-27 19:04:29,890 - INFO -personaje añadido: Alejandro Pedri (ID: 0)
+2025-09-27 19:04:29,890 - INFO -Villano creado: Alejandro Pedri
+2025-09-27 19:04:30,137 - INFO -personaje añadido: Alejandro Martínez (ID: 0)
+2025-09-27 19:04:30,138 - INFO -Villano creado: Alejandro Martínez
+2025-09-27 19:04:30,361 - INFO -personaje añadido: Robert García (ID: 0)
+2025-09-27 19:04:30,361 - INFO -Villano creado: Robert García
+2025-09-27 19:04:30,654 - INFO -personaje añadido: Jules Félix (ID: 0)
+2025-09-27 19:04:30,654 - INFO -Villano creado: Jules Félix
+2025-09-27 19:04:30,859 - INFO -personaje añadido: Robert Martínez (ID: 0)
+2025-09-27 19:04:30,859 - INFO -Villano creado: Robert Martínez
+2025-09-27 19:04:31,059 - INFO -personaje añadido: Alejandro Pedri (ID: 0)
+2025-09-27 19:04:31,059 - INFO -Villano creado: Alejandro Pedri
+2025-09-27 19:04:31,308 - INFO -personaje añadido: Alejandro Pedri (ID: 0)
+2025-09-27 19:04:31,308 - INFO -Villano creado: Alejandro Pedri
+2025-09-27 19:04:31,531 - INFO -personaje añadido: João Lewandowski (ID: 0)
+2025-09-27 19:04:31,531 - INFO -Villano creado: João Lewandowski
+2025-09-27 19:04:31,757 - INFO -personaje añadido: Gavi Balde (ID: 0)
+2025-09-27 19:04:31,757 - INFO -Villano creado: Gavi Balde
+2025-09-27 19:04:32,004 - INFO -personaje añadido: Lamine de Jong (ID: 0)
+2025-09-27 19:04:32,004 - INFO -Villano creado: Lamine de Jong
+2025-09-27 19:04:32,274 - INFO -personaje añadido: João de Jong (ID: 0)
+2025-09-27 19:04:32,275 - INFO -Villano creado: João de Jong
+2025-09-27 19:04:32,499 - INFO -personaje añadido: Ronald Félix (ID: 0)
+2025-09-27 19:04:32,499 - INFO -Villano creado: Ronald Félix
+2025-09-27 19:04:32,724 - INFO -personaje añadido: Marcos Balde (ID: 0)
+2025-09-27 19:04:32,724 - INFO -Villano creado: Marcos Balde
+2025-09-27 19:04:32,972 - INFO -personaje añadido: Iñaki Yamal (ID: 0)
+2025-09-27 19:04:32,972 - INFO -Villano creado: Iñaki Yamal
+2025-09-27 19:04:33,198 - INFO -personaje añadido: Sergio Martínez (ID: 0)
+2025-09-27 19:04:33,198 - INFO -Villano creado: Sergio Martínez
+2025-09-27 19:04:33,445 - INFO -personaje añadido: Iñaki Yamal (ID: 0)
+2025-09-27 19:04:33,445 - INFO -Villano creado: Iñaki Yamal
+2025-09-27 19:04:33,670 - INFO -personaje añadido: Ilias Félix (ID: 0)
+2025-09-27 19:04:33,670 - INFO -Villano creado: Ilias Félix
+2025-09-27 19:04:33,894 - INFO -personaje añadido: Ansu Lewandowski (ID: 0)
+2025-09-27 19:04:33,894 - INFO -Villano creado: Ansu Lewandowski
+2025-09-27 19:04:34,142 - INFO -personaje añadido: Ilias Roberto (ID: 0)
+2025-09-27 19:04:34,143 - INFO -Villano creado: Ilias Roberto
+2025-09-27 19:04:34,390 - INFO -personaje añadido: Eric Félix (ID: 0)
+2025-09-27 19:04:34,390 - INFO -Villano creado: Eric Félix
+2025-09-27 19:04:34,840 - INFO -personaje añadido: Éder Courtois (ID: 0)
+2025-09-27 19:04:34,840 - INFO -Heroe creado: Éder Courtois
+2025-09-27 19:04:35,064 - INFO -personaje añadido: Endrick Courtois (ID: 0)
+2025-09-27 19:04:35,064 - INFO -Heroe creado: Endrick Courtois
+2025-09-27 19:04:35,311 - INFO -personaje añadido: Luka Kroos (ID: 0)
+2025-09-27 19:04:35,311 - INFO -Heroe creado: Luka Kroos
+2025-09-27 19:04:35,559 - INFO -personaje añadido: Dani Tchouaméni (ID: 0)
+2025-09-27 19:04:35,559 - INFO -Heroe creado: Dani Tchouaméni
+2025-09-27 19:04:35,807 - INFO -personaje añadido: Dani Ceballos (ID: 0)
+2025-09-27 19:04:35,808 - INFO -Heroe creado: Dani Ceballos
+2025-09-27 19:04:36,054 - INFO -personaje añadido: Thibaut Bellingham (ID: 0)
+2025-09-27 19:04:36,054 - INFO -Heroe creado: Thibaut Bellingham
+2025-09-27 19:04:36,302 - INFO -personaje añadido: Arda Bellingham (ID: 0)
+2025-09-27 19:04:36,303 - INFO -Heroe creado: Arda Bellingham
+2025-09-27 19:04:36,571 - INFO -personaje añadido: Rudiger Vinicius (ID: 0)
+2025-09-27 19:04:36,571 - INFO -Heroe creado: Rudiger Vinicius
+2025-09-27 19:04:36,798 - INFO -personaje añadido: Thibaut Carvajal (ID: 0)
+2025-09-27 19:04:36,798 - INFO -Heroe creado: Thibaut Carvajal
+2025-09-27 19:04:37,044 - INFO -personaje añadido: Aurélien Militão (ID: 0)
+2025-09-27 19:04:37,044 - INFO -Heroe creado: Aurélien Militão
+2025-09-27 19:04:37,269 - INFO -personaje añadido: Luka Ceballos (ID: 0)
+2025-09-27 19:04:37,269 - INFO -Heroe creado: Luka Ceballos
+2025-09-27 19:04:37,515 - INFO -personaje añadido: Dani Ceballos (ID: 0)
+2025-09-27 19:04:37,515 - INFO -Heroe creado: Dani Ceballos
+2025-09-27 19:04:37,763 - INFO -personaje añadido: Arda Tchouaméni (ID: 0)
+2025-09-27 19:04:37,763 - INFO -Heroe creado: Arda Tchouaméni
+2025-09-27 19:04:38,349 - INFO -personaje añadido: Pau Torres (ID: 0)
+2025-09-27 19:04:38,349 - INFO -Villano creado: Pau Torres
+2025-09-27 19:04:38,551 - INFO -personaje añadido: Lamine Yamal (ID: 0)
+2025-09-27 19:04:38,551 - INFO -Villano creado: Lamine Yamal
+2025-09-27 19:04:38,822 - INFO -personaje añadido: Marcos Gavi (ID: 0)
+2025-09-27 19:04:38,822 - INFO -Villano creado: Marcos Gavi
+2025-09-27 19:04:39,070 - INFO -personaje añadido: Ronald Pérez (ID: 0)
+2025-09-27 19:04:39,070 - INFO -Villano creado: Ronald Pérez
+2025-09-27 19:04:39,317 - INFO -personaje añadido: Ilias Balde (ID: 0)
+2025-09-27 19:04:39,317 - INFO -Villano creado: Ilias Balde
+2025-09-27 19:04:39,609 - INFO -personaje añadido: Gavi Félix (ID: 0)
+2025-09-27 19:04:39,609 - INFO -Villano creado: Gavi Félix
+2025-09-27 19:04:39,858 - INFO -personaje añadido: Pedri Torres (ID: 0)
+2025-09-27 19:04:39,858 - INFO -Villano creado: Pedri Torres
+2025-09-27 19:04:40,083 - INFO -personaje añadido: Robert Torres (ID: 0)
+2025-09-27 19:04:40,083 - INFO -Villano creado: Robert Torres
+2025-09-27 19:04:40,419 - INFO -personaje añadido: Gavi Pedri (ID: 0)
+2025-09-27 19:04:40,419 - INFO -Villano creado: Gavi Pedri
+2025-09-27 19:04:43,141 - INFO -Personajes listados
+2025-09-27 19:04:52,119 - INFO -emparejamiento: Heroe: Dani con poder: 57.4vs Villano: Ilias con poder: 33.75resultado: muy descompensado
+2025-09-27 19:05:01,569 - INFO -emparejamiento: Heroe: Rudiger con poder: 37.8vs Villano: Alejandro con poder: 44.0resultado: tienen mas o menos el mismo poder
+2025-09-27 19:05:02,627 - INFO -emparejamiento: Heroe: Endrick con poder: 20.0vs Villano: Robert con poder: 38.0resultado: muy descompensado
+2025-09-27 19:05:03,279 - INFO -emparejamiento: Heroe: Fran con poder: 48.2vs Villano: Jules con poder: 78.0resultado: muy descompensado
+2025-09-27 19:05:03,684 - INFO -emparejamiento: Heroe: Thibaut con poder: 54.2vs Villano: João con poder: 69.75resultado: muy descompensado
+2025-09-27 19:05:03,999 - INFO -emparejamiento: Heroe: Arda con poder: 62.4vs Villano: Robert con poder: 46.25resultado: muy descompensado
+2025-09-27 19:05:04,314 - INFO -emparejamiento: Heroe: Lunin con poder: 35.2vs Villano: Ansu con poder: 44.25resultado: tienen mas o menos el mismo poder
+2025-09-27 19:05:04,585 - INFO -emparejamiento: Heroe: Arda con poder: 36.2vs Villano: Eric con poder: 48.75resultado: muy descompensado
+2025-09-27 19:05:04,831 - INFO -emparejamiento: Heroe: Arda con poder: 62.4vs Villano: Alejandro con poder: 42.0resultado: muy descompensado
+2025-09-27 19:05:11,942 - INFO -Buscando personajes por nombre: 'vinicius'
+2025-09-27 19:05:19,997 - INFO -Personajes listados
+2025-09-27 19:05:34,419 - INFO -Buscando personajes por nombre: 'Lamine'
+2025-09-27 19:05:34,419 - INFO -Se han encontrado 1 personajes con nombre 'Lamine'
+2025-09-27 19:05:34,419 - INFO -Se han encontrado 2 personajes con nombre 'Lamine'
+2025-09-27 19:05:41,147 - INFO -Personajes listados
+2025-09-27 19:05:42,339 - INFO -personaje añadido: Arda Ceballos (ID: 0)
+2025-09-27 19:05:42,339 - INFO -Heroe creado: Arda Ceballos
+2025-09-27 19:05:42,609 - INFO -personaje añadido: Arda Valverde (ID: 0)
+2025-09-27 19:05:42,610 - INFO -Heroe creado: Arda Valverde
+2025-09-27 19:05:42,811 - INFO -personaje añadido: Thibaut Mendy (ID: 0)
+2025-09-27 19:05:42,812 - INFO -Heroe creado: Thibaut Mendy
+2025-09-27 19:05:43,035 - INFO -personaje añadido: Luka Ceballos (ID: 0)
+2025-09-27 19:05:43,036 - INFO -Heroe creado: Luka Ceballos
+2025-09-27 19:05:43,260 - INFO -personaje añadido: Rudiger Vinicius (ID: 0)
+2025-09-27 19:05:43,260 - INFO -Heroe creado: Rudiger Vinicius
+2025-09-27 19:05:43,509 - INFO -personaje añadido: Aurélien Militão (ID: 0)
+2025-09-27 19:05:43,510 - INFO -Heroe creado: Aurélien Militão
+2025-09-27 19:05:43,958 - INFO -personaje añadido: Dani Ceballos (ID: 0)
+2025-09-27 19:05:43,958 - INFO -Heroe creado: Dani Ceballos
+2025-09-27 19:05:44,205 - INFO -personaje añadido: Aurélien Militão (ID: 0)
+2025-09-27 19:05:44,205 - INFO -Heroe creado: Aurélien Militão
+2025-09-27 19:05:44,432 - INFO -personaje añadido: Éder Tchouaméni (ID: 0)
+2025-09-27 19:05:44,432 - INFO -Heroe creado: Éder Tchouaméni
+2025-09-27 19:05:44,657 - INFO -personaje añadido: Lunin Kroos (ID: 0)
+2025-09-27 19:05:44,657 - INFO -Heroe creado: Lunin Kroos
+2025-09-27 19:05:44,882 - INFO -personaje añadido: Jesús Valverde (ID: 0)
+2025-09-27 19:05:44,882 - INFO -Heroe creado: Jesús Valverde
+2025-09-27 19:05:45,129 - INFO -personaje añadido: Luka Rodrygo (ID: 0)
+2025-09-27 19:05:45,129 - INFO -Heroe creado: Luka Rodrygo
+2025-09-27 19:05:45,310 - INFO -personaje añadido: Vinicius Ceballos (ID: 0)
+2025-09-27 19:05:45,310 - INFO -Heroe creado: Vinicius Ceballos
+2025-09-27 19:05:45,534 - INFO -personaje añadido: Vinicius Militão (ID: 0)
+2025-09-27 19:05:45,534 - INFO -Heroe creado: Vinicius Militão
+2025-09-27 19:05:45,759 - INFO -personaje añadido: Fran Carvajal (ID: 0)
+2025-09-27 19:05:45,760 - INFO -Heroe creado: Fran Carvajal
+2025-09-27 19:05:46,119 - INFO -personaje añadido: Kylian Valverde (ID: 0)
+2025-09-27 19:05:46,119 - INFO -Heroe creado: Kylian Valverde
+2025-09-27 19:05:46,368 - INFO -personaje añadido: Endrick Ceballos (ID: 0)
+2025-09-27 19:05:46,368 - INFO -Heroe creado: Endrick Ceballos
+2025-09-27 19:05:46,592 - INFO -personaje añadido: Thibaut Rudiger (ID: 0)
+2025-09-27 19:05:46,592 - INFO -Heroe creado: Thibaut Rudiger
+2025-09-27 19:05:46,862 - INFO -personaje añadido: Aurélien Valverde (ID: 0)
+2025-09-27 19:05:46,862 - INFO -Heroe creado: Aurélien Valverde
+2025-09-27 19:05:47,086 - INFO -personaje añadido: Toni Militão (ID: 0)
+2025-09-27 19:05:47,086 - INFO -Heroe creado: Toni Militão
+2025-09-27 19:05:47,334 - INFO -personaje añadido: Fran Ceballos (ID: 0)
+2025-09-27 19:05:47,334 - INFO -Heroe creado: Fran Ceballos
+2025-09-27 19:05:47,716 - INFO -personaje añadido: Fran Éder (ID: 0)
+2025-09-27 19:05:47,716 - INFO -Heroe creado: Fran Éder
+2025-09-27 19:05:48,145 - INFO -Personajes listados
+2025-09-27 19:06:00,001 - INFO -Buscando personajes por nombre: 'Fran'
+2025-09-27 19:06:00,002 - INFO -Se han encontrado 1 personajes con nombre 'Fran'
+2025-09-27 19:06:00,002 - INFO -Se han encontrado 2 personajes con nombre 'Fran'
+2025-09-27 19:06:00,002 - INFO -Se han encontrado 3 personajes con nombre 'Fran'
+2025-09-27 19:06:00,002 - INFO -Se han encontrado 4 personajes con nombre 'Fran'
+2025-09-27 19:06:00,002 - INFO -Se han encontrado 5 personajes con nombre 'Fran'
+2025-09-27 19:06:00,002 - INFO -Se han encontrado 6 personajes con nombre 'Fran'
+2025-09-27 19:06:23,875 - INFO -personaje añadido: Rodrygo Militão (ID: 0)
+2025-09-27 19:06:23,875 - INFO -Heroe creado: Rodrygo Militão
+2025-09-27 19:06:24,189 - INFO -personaje añadido: Jesús Carvajal (ID: 0)
+2025-09-27 19:06:24,189 - INFO -Heroe creado: Jesús Carvajal
+2025-09-27 19:06:24,414 - INFO -personaje añadido: Dani Courtois (ID: 0)
+2025-09-27 19:06:24,414 - INFO -Heroe creado: Dani Courtois
+2025-09-27 19:06:24,639 - INFO -personaje añadido: Kylian Rudiger (ID: 0)
+2025-09-27 19:06:24,639 - INFO -Heroe creado: Kylian Rudiger
+2025-09-27 19:06:24,841 - INFO -personaje añadido: Federico Carvajal (ID: 0)
+2025-09-27 19:06:24,841 - INFO -Heroe creado: Federico Carvajal
+2025-09-27 19:06:25,067 - INFO -personaje añadido: Rudiger Camavinga (ID: 0)
+2025-09-27 19:06:25,067 - INFO -Heroe creado: Rudiger Camavinga
+2025-09-27 19:06:25,267 - INFO -personaje añadido: Fran Valverde (ID: 0)
+2025-09-27 19:06:25,267 - INFO -Heroe creado: Fran Valverde
+2025-09-27 19:06:25,472 - INFO -personaje añadido: Jesús Rodrygo (ID: 0)
+2025-09-27 19:06:25,472 - INFO -Heroe creado: Jesús Rodrygo
+2025-09-27 19:06:25,674 - INFO -personaje añadido: Endrick Kroos (ID: 0)
+2025-09-27 19:06:25,674 - INFO -Heroe creado: Endrick Kroos
+2025-09-27 19:06:25,920 - INFO -personaje añadido: Luka Éder (ID: 0)
+2025-09-27 19:06:25,920 - INFO -Heroe creado: Luka Éder
+2025-09-27 19:06:26,124 - INFO -personaje añadido: Jesús Éder (ID: 0)
+2025-09-27 19:06:26,124 - INFO -Heroe creado: Jesús Éder
+2025-09-27 19:06:26,347 - INFO -personaje añadido: David Militão (ID: 0)
+2025-09-27 19:06:26,347 - INFO -Heroe creado: David Militão
+2025-09-27 19:06:26,573 - INFO -personaje añadido: Federico Ceballos (ID: 0)
+2025-09-27 19:06:26,573 - INFO -Heroe creado: Federico Ceballos
+2025-09-27 19:06:26,798 - INFO -personaje añadido: Aurélien Bellingham (ID: 0)
+2025-09-27 19:06:26,798 - INFO -Heroe creado: Aurélien Bellingham
+2025-09-27 19:06:27,047 - INFO -personaje añadido: Fran Carvajal (ID: 0)
+2025-09-27 19:06:27,047 - INFO -Heroe creado: Fran Carvajal
+2025-09-27 19:06:27,271 - INFO -personaje añadido: Kylian Carvajal (ID: 0)
+2025-09-27 19:06:27,271 - INFO -Heroe creado: Kylian Carvajal
+2025-09-27 19:06:27,543 - INFO -personaje añadido: David Militão (ID: 0)
+2025-09-27 19:06:27,543 - INFO -Heroe creado: David Militão
+2025-09-27 19:06:27,746 - INFO -personaje añadido: Luka Valverde (ID: 0)
+2025-09-27 19:06:27,746 - INFO -Heroe creado: Luka Valverde
+2025-09-27 19:06:28,014 - INFO -personaje añadido: Fran Courtois (ID: 0)
+2025-09-27 19:06:28,014 - INFO -Heroe creado: Fran Courtois
+2025-09-27 19:06:28,218 - INFO -personaje añadido: Toni Bellingham (ID: 0)
+2025-09-27 19:06:28,218 - INFO -Heroe creado: Toni Bellingham
+2025-09-27 19:06:28,465 - INFO -personaje añadido: Jesús Mendy (ID: 0)
+2025-09-27 19:06:28,465 - INFO -Heroe creado: Jesús Mendy
+2025-09-27 19:06:28,689 - INFO -personaje añadido: Dani Bellingham (ID: 0)
+2025-09-27 19:06:28,689 - INFO -Heroe creado: Dani Bellingham
+2025-09-27 19:06:28,915 - INFO -personaje añadido: Dani Vinicius (ID: 0)
+2025-09-27 19:06:28,915 - INFO -Heroe creado: Dani Vinicius
+2025-09-27 19:06:29,163 - INFO -personaje añadido: Vinicius Courtois (ID: 0)
+2025-09-27 19:06:29,163 - INFO -Heroe creado: Vinicius Courtois
+2025-09-27 19:06:29,386 - INFO -personaje añadido: Rudiger Vinicius (ID: 0)
+2025-09-27 19:06:29,386 - INFO -Heroe creado: Rudiger Vinicius
+2025-09-27 19:06:29,634 - INFO -personaje añadido: Luka Militão (ID: 0)
+2025-09-27 19:06:29,634 - INFO -Heroe creado: Luka Militão
+2025-09-27 19:06:29,860 - INFO -personaje añadido: Lunin Carvajal (ID: 0)
+2025-09-27 19:06:29,860 - INFO -Heroe creado: Lunin Carvajal
+2025-09-27 19:06:30,129 - INFO -personaje añadido: Vinicius Militão (ID: 0)
+2025-09-27 19:06:30,129 - INFO -Heroe creado: Vinicius Militão
+2025-09-27 19:06:30,377 - INFO -personaje añadido: Dani Camavinga (ID: 0)
+2025-09-27 19:06:30,377 - INFO -Heroe creado: Dani Camavinga
+2025-09-27 19:06:30,624 - INFO -personaje añadido: David Valverde (ID: 0)
+2025-09-27 19:06:30,625 - INFO -Heroe creado: David Valverde
+2025-09-27 19:06:30,896 - INFO -personaje añadido: Lunin Vinicius (ID: 0)
+2025-09-27 19:06:30,896 - INFO -Heroe creado: Lunin Vinicius
+2025-09-27 19:06:31,142 - INFO -personaje añadido: Éder Vinicius (ID: 0)
+2025-09-27 19:06:31,142 - INFO -Heroe creado: Éder Vinicius
+2025-09-27 19:06:31,615 - INFO -personaje añadido: Éder Militão (ID: 0)
+2025-09-27 19:06:31,615 - INFO -Heroe creado: Éder Militão
+2025-09-27 19:06:32,987 - INFO -personaje añadido: Sergio Raphinha (ID: 0)
+2025-09-27 19:06:32,987 - INFO -Villano creado: Sergio Raphinha
+2025-09-27 19:06:33,346 - INFO -personaje añadido: Eric Pérez (ID: 0)
+2025-09-27 19:06:33,346 - INFO -Villano creado: Eric Pérez
+2025-09-27 19:06:33,617 - INFO -personaje añadido: Pedri Balde (ID: 0)
+2025-09-27 19:06:33,617 - INFO -Villano creado: Pedri Balde
+2025-09-27 19:06:33,910 - INFO -personaje añadido: Thomas Martínez (ID: 0)
+2025-09-27 19:06:33,910 - INFO -Villano creado: Thomas Martínez
+2025-09-27 19:06:34,224 - INFO -personaje añadido: Robert Martínez (ID: 0)
+2025-09-27 19:06:34,224 - INFO -Villano creado: Robert Martínez
+2025-09-27 19:06:34,495 - INFO -personaje añadido: Jules Raphinha (ID: 0)
+2025-09-27 19:06:34,495 - INFO -Villano creado: Jules Raphinha
+2025-09-27 19:06:34,742 - INFO -personaje añadido: Eric Yamal (ID: 0)
+2025-09-27 19:06:34,742 - INFO -Villano creado: Eric Yamal
+2025-09-27 19:06:35,034 - INFO -personaje añadido: Frenkie Raphinha (ID: 0)
+2025-09-27 19:06:35,034 - INFO -Villano creado: Frenkie Raphinha
+2025-09-27 19:06:35,305 - INFO -personaje añadido: Eric Fati (ID: 0)
+2025-09-27 19:06:35,305 - INFO -Villano creado: Eric Fati
+2025-09-27 19:06:35,550 - INFO -personaje añadido: Robert Lewandowski (ID: 0)
+2025-09-27 19:06:35,550 - INFO -Villano creado: Robert Lewandowski
+2025-09-27 19:06:42,324 - INFO -Buscando personajes por nombre: 'git_god'
+2025-09-27 19:07:15,400 - INFO -Buscando personajes con el atributo arquitecto entre 10 y 100
+2025-09-27 19:07:15,400 - ERROR -error al buscar el atributo arquitecto
+2025-09-27 19:15:18,588 - INFO -Personajes listados
+2025-09-27 19:15:31,186 - INFO -Buscando personajes por nombre: 'Lunin'
+2025-09-27 19:15:31,186 - INFO -Se han encontrado 1 personajes con nombre 'Lunin'
+2025-09-27 19:15:31,186 - INFO -Se han encontrado 2 personajes con nombre 'Lunin'
+2025-09-27 19:15:31,186 - INFO -Se han encontrado 3 personajes con nombre 'Lunin'
+2025-09-27 19:15:31,187 - INFO -Se han encontrado 4 personajes con nombre 'Lunin'
+2025-09-27 19:15:31,187 - INFO -Se han encontrado 5 personajes con nombre 'Lunin'
+2025-09-27 19:15:33,953 - ERROR -Error en el menú: invalid literal for int() with base 10: 'Lunin'
+2025-09-27 19:15:37,064 - ERROR -Error en el menú: invalid literal for int() with base 10: 'Lunin'
+2025-09-27 19:15:44,010 - INFO -Buscando personajes por nombre: 'Lunin'
+2025-09-27 19:15:44,010 - INFO -Se han encontrado 1 personajes con nombre 'Lunin'
+2025-09-27 19:15:44,010 - INFO -Se han encontrado 2 personajes con nombre 'Lunin'
+2025-09-27 19:15:44,010 - INFO -Se han encontrado 3 personajes con nombre 'Lunin'
+2025-09-27 19:15:44,010 - INFO -Se han encontrado 4 personajes con nombre 'Lunin'
+2025-09-27 19:15:44,010 - INFO -Se han encontrado 5 personajes con nombre 'Lunin'
+2025-09-27 19:15:48,309 - INFO -Personajes listados
+2025-09-27 19:22:05,205 - INFO -Personajes listados
+2025-09-27 19:22:11,865 - INFO -personaje añadido: Federico Éder (ID: 0)
+2025-09-27 19:22:11,866 - INFO -Heroe creado: Federico Éder
+2025-09-27 19:22:12,158 - INFO -personaje añadido: Kylian Éder (ID: 0)
+2025-09-27 19:22:12,158 - INFO -Heroe creado: Kylian Éder
+2025-09-27 19:22:12,473 - INFO -personaje añadido: Luka Kroos (ID: 0)
+2025-09-27 19:22:12,473 - INFO -Heroe creado: Luka Kroos
+2025-09-27 19:22:12,698 - INFO -personaje añadido: Endrick Vinicius (ID: 0)
+2025-09-27 19:22:12,698 - INFO -Heroe creado: Endrick Vinicius
+2025-09-27 19:22:12,945 - INFO -personaje añadido: Thibaut Vinicius (ID: 0)
+2025-09-27 19:22:12,945 - INFO -Heroe creado: Thibaut Vinicius
+2025-09-27 19:22:13,147 - INFO -personaje añadido: David Valverde (ID: 0)
+2025-09-27 19:22:13,147 - INFO -Heroe creado: David Valverde
+2025-09-27 19:22:13,396 - INFO -personaje añadido: Rodrygo Camavinga (ID: 0)
+2025-09-27 19:22:13,396 - INFO -Heroe creado: Rodrygo Camavinga
+2025-09-27 19:22:13,620 - INFO -personaje añadido: Dani Camavinga (ID: 0)
+2025-09-27 19:22:13,620 - INFO -Heroe creado: Dani Camavinga
+2025-09-27 19:22:13,845 - INFO -personaje añadido: Vinicius Militão (ID: 0)
+2025-09-27 19:22:13,845 - INFO -Heroe creado: Vinicius Militão
+2025-09-27 19:22:14,093 - INFO -personaje añadido: Kylian Kroos (ID: 0)
+2025-09-27 19:22:14,094 - INFO -Heroe creado: Kylian Kroos
+2025-09-27 19:22:14,588 - INFO -personaje añadido: Rudiger Éder (ID: 0)
+2025-09-27 19:22:14,588 - INFO -Heroe creado: Rudiger Éder
+2025-09-27 19:22:14,858 - INFO -personaje añadido: Endrick Valverde (ID: 0)
+2025-09-27 19:22:14,858 - INFO -Heroe creado: Endrick Valverde
+2025-09-27 19:22:15,106 - INFO -personaje añadido: Vinicius Bellingham (ID: 0)
+2025-09-27 19:22:15,106 - INFO -Heroe creado: Vinicius Bellingham
+2025-09-27 19:22:15,353 - INFO -personaje añadido: Federico Camavinga (ID: 0)
+2025-09-27 19:22:15,353 - INFO -Heroe creado: Federico Camavinga
+2025-09-27 19:22:15,579 - INFO -personaje añadido: Federico Rudiger (ID: 0)
+2025-09-27 19:22:15,579 - INFO -Heroe creado: Federico Rudiger
+2025-09-27 19:22:15,780 - INFO -personaje añadido: Vinicius Rudiger (ID: 0)
+2025-09-27 19:22:15,780 - INFO -Heroe creado: Vinicius Rudiger
+2025-09-27 19:22:15,984 - INFO -personaje añadido: Endrick Rudiger (ID: 0)
+2025-09-27 19:22:15,984 - INFO -Heroe creado: Endrick Rudiger
+2025-09-27 19:22:16,208 - INFO -personaje añadido: David Bellingham (ID: 0)
+2025-09-27 19:22:16,208 - INFO -Heroe creado: David Bellingham
+2025-09-27 19:22:16,433 - INFO -personaje añadido: Fran Militão (ID: 0)
+2025-09-27 19:22:16,433 - INFO -Heroe creado: Fran Militão
+2025-09-27 19:22:16,658 - INFO -personaje añadido: Luka Rudiger (ID: 0)
+2025-09-27 19:22:16,658 - INFO -Heroe creado: Luka Rudiger
+2025-09-27 19:22:17,130 - INFO -personaje añadido: David Vinicius (ID: 0)
+2025-09-27 19:22:17,131 - INFO -Heroe creado: David Vinicius
+2025-09-27 19:22:17,400 - INFO -personaje añadido: Vinicius Bellingham (ID: 0)
+2025-09-27 19:22:17,400 - INFO -Heroe creado: Vinicius Bellingham
+2025-09-27 19:22:17,647 - INFO -personaje añadido: Rodrygo Alaba (ID: 0)
+2025-09-27 19:22:17,647 - INFO -Heroe creado: Rodrygo Alaba
+2025-09-27 19:22:17,874 - INFO -personaje añadido: Sergio Pérez (ID: 0)
+2025-09-27 19:22:17,874 - INFO -Villano creado: Sergio Pérez
+2025-09-27 19:22:18,098 - INFO -personaje añadido: Ansu Félix (ID: 0)
+2025-09-27 19:22:18,098 - INFO -Villano creado: Ansu Félix
+2025-09-27 19:22:18,324 - INFO -personaje añadido: Thomas Pedri (ID: 0)
+2025-09-27 19:22:18,324 - INFO -Villano creado: Thomas Pedri
+2025-09-27 19:22:18,547 - INFO -personaje añadido: Thomas Gavi (ID: 0)
+2025-09-27 19:22:18,547 - INFO -Villano creado: Thomas Gavi
+2025-09-27 19:22:18,795 - INFO -personaje añadido: Gavi Pérez (ID: 0)
+2025-09-27 19:22:18,795 - INFO -Villano creado: Gavi Pérez
+2025-09-27 19:22:19,021 - INFO -personaje añadido: Alejandro de Jong (ID: 0)
+2025-09-27 19:22:19,022 - INFO -Villano creado: Alejandro de Jong
+2025-09-27 19:22:19,268 - INFO -personaje añadido: Arnau Roberto (ID: 0)
+2025-09-27 19:22:19,268 - INFO -Villano creado: Arnau Roberto
+2025-09-27 19:22:19,538 - INFO -personaje añadido: Frenkie Pérez (ID: 0)
+2025-09-27 19:22:19,538 - INFO -Villano creado: Frenkie Pérez
+2025-09-27 19:22:19,786 - INFO -personaje añadido: Alejandro Pedri (ID: 0)
+2025-09-27 19:22:19,786 - INFO -Villano creado: Alejandro Pedri
+2025-09-27 19:22:20,011 - INFO -personaje añadido: Eric Pérez (ID: 0)
+2025-09-27 19:22:20,011 - INFO -Villano creado: Eric Pérez
+2025-09-27 19:22:20,258 - INFO -personaje añadido: Gavi Fati (ID: 0)
+2025-09-27 19:22:20,259 - INFO -Villano creado: Gavi Fati
+2025-09-27 19:22:20,528 - INFO -personaje añadido: Thomas Roberto (ID: 0)
+2025-09-27 19:22:20,528 - INFO -Villano creado: Thomas Roberto
+2025-09-27 19:22:20,776 - INFO -personaje añadido: Sergio Martínez (ID: 0)
+2025-09-27 19:22:20,776 - INFO -Villano creado: Sergio Martínez
+2025-09-27 19:22:21,000 - INFO -personaje añadido: Gavi Lewandowski (ID: 0)
+2025-09-27 19:22:21,001 - INFO -Villano creado: Gavi Lewandowski
+2025-09-27 19:22:21,272 - INFO -personaje añadido: Ansu Gavi (ID: 0)
+2025-09-27 19:22:21,272 - INFO -Villano creado: Ansu Gavi
+2025-09-27 19:22:21,900 - INFO -personaje añadido: Arnau Martínez (ID: 0)
+2025-09-27 19:22:21,900 - INFO -Villano creado: Arnau Martínez
+2025-09-27 19:22:23,813 - ERROR -Error en el menú: invalid literal for int() with base 10: 'a'
+2025-09-27 19:22:26,399 - ERROR -Error en el menú: invalid literal for int() with base 10: 'e'
+2025-09-27 19:22:27,773 - ERROR -Error en el menú: invalid literal for int() with base 10: ''
+2025-09-27 19:22:28,809 - ERROR -Error en el menú: invalid literal for int() with base 10: ''
+2025-09-27 19:22:30,676 - ERROR -Error en el menú: invalid literal for int() with base 10: 'asd'
+2025-09-27 19:22:36,437 - ERROR -Error al listar personajes: 'Heroe' object has no attribute 'gitgod'
+2025-09-27 19:22:43,703 - ERROR -Error al listar personajes: 'Heroe' object has no attribute 'gitgod'
+2025-09-27 19:23:06,475 - INFO -personaje añadido: Dani Valverde (ID: 0)
+2025-09-27 19:23:06,475 - INFO -Heroe creado: Dani Valverde
+2025-09-27 19:23:06,720 - INFO -personaje añadido: Vinicius Carvajal (ID: 0)
+2025-09-27 19:23:06,721 - INFO -Heroe creado: Vinicius Carvajal
+2025-09-27 19:23:06,946 - INFO -personaje añadido: Rudiger Rodrygo (ID: 0)
+2025-09-27 19:23:06,946 - INFO -Heroe creado: Rudiger Rodrygo
+2025-09-27 19:23:07,192 - INFO -personaje añadido: Luka Bellingham (ID: 0)
+2025-09-27 19:23:07,193 - INFO -Heroe creado: Luka Bellingham
+2025-09-27 19:23:07,440 - INFO -personaje añadido: Éder Carvajal (ID: 0)
+2025-09-27 19:23:07,441 - INFO -Heroe creado: Éder Carvajal
+2025-09-27 19:23:07,665 - INFO -personaje añadido: Federico Valverde (ID: 0)
+2025-09-27 19:23:07,665 - INFO -Heroe creado: Federico Valverde
+2025-09-27 19:23:07,868 - INFO -personaje añadido: David Courtois (ID: 0)
+2025-09-27 19:23:07,868 - INFO -Heroe creado: David Courtois
+2025-09-27 19:23:08,048 - INFO -personaje añadido: Vinicius Carvajal (ID: 0)
+2025-09-27 19:23:08,048 - INFO -Heroe creado: Vinicius Carvajal
+2025-09-27 19:23:08,273 - INFO -personaje añadido: Thibaut Vinicius (ID: 0)
+2025-09-27 19:23:08,273 - INFO -Heroe creado: Thibaut Vinicius
+2025-09-27 19:23:08,477 - INFO -personaje añadido: Toni Ceballos (ID: 0)
+2025-09-27 19:23:08,477 - INFO -Heroe creado: Toni Ceballos
+2025-09-27 19:23:08,723 - INFO -personaje añadido: Rudiger Éder (ID: 0)
+2025-09-27 19:23:08,723 - INFO -Heroe creado: Rudiger Éder
+2025-09-27 19:23:08,926 - INFO -personaje añadido: Éder Ceballos (ID: 0)
+2025-09-27 19:23:08,926 - INFO -Heroe creado: Éder Ceballos
+2025-09-27 19:23:09,376 - INFO -personaje añadido: Thibaut Éder (ID: 0)
+2025-09-27 19:23:09,376 - INFO -Heroe creado: Thibaut Éder
+2025-09-27 19:23:09,577 - INFO -personaje añadido: Toni Éder (ID: 0)
+2025-09-27 19:23:09,577 - INFO -Heroe creado: Toni Éder
+2025-09-27 19:23:09,803 - INFO -personaje añadido: David Militão (ID: 0)
+2025-09-27 19:23:09,803 - INFO -Heroe creado: David Militão
+2025-09-27 19:23:10,073 - INFO -personaje añadido: Rodrygo Éder (ID: 0)
+2025-09-27 19:23:10,073 - INFO -Heroe creado: Rodrygo Éder
+2025-09-27 19:23:11,085 - INFO -personaje añadido: Lamine Fati (ID: 0)
+2025-09-27 19:23:11,085 - INFO -Villano creado: Lamine Fati
+2025-09-27 19:23:11,715 - INFO -personaje añadido: Eric Balde (ID: 0)
+2025-09-27 19:23:11,715 - INFO -Villano creado: Eric Balde
+2025-09-27 19:23:12,097 - INFO -personaje añadido: Marcos Félix (ID: 0)
+2025-09-27 19:23:12,097 - INFO -Villano creado: Marcos Félix
+2025-09-27 19:23:12,616 - INFO -personaje añadido: Arnau Torres (ID: 0)
+2025-09-27 19:23:12,616 - INFO -Villano creado: Arnau Torres
+2025-09-27 19:23:12,975 - INFO -personaje añadido: João Balde (ID: 0)
+2025-09-27 19:23:12,976 - INFO -Villano creado: João Balde
+2025-09-27 19:23:13,335 - INFO -personaje añadido: João Pérez (ID: 0)
+2025-09-27 19:23:13,335 - INFO -Villano creado: João Pérez
+2025-09-27 19:23:13,560 - INFO -personaje añadido: Ilias Balde (ID: 0)
+2025-09-27 19:23:13,560 - INFO -Villano creado: Ilias Balde
+2025-09-27 19:23:13,897 - INFO -personaje añadido: Ferran Araujo (ID: 0)
+2025-09-27 19:23:13,898 - INFO -Villano creado: Ferran Araujo
+2025-09-27 19:23:14,100 - INFO -personaje añadido: Gavi Félix (ID: 0)
+2025-09-27 19:23:14,100 - INFO -Villano creado: Gavi Félix
+2025-09-27 19:23:14,392 - INFO -personaje añadido: Raphinha de Jong (ID: 0)
+2025-09-27 19:23:14,393 - INFO -Villano creado: Raphinha de Jong
+2025-09-27 19:23:14,685 - INFO -personaje añadido: Arnau Araujo (ID: 0)
+2025-09-27 19:23:14,685 - INFO -Villano creado: Arnau Araujo
+2025-09-27 19:23:14,910 - INFO -personaje añadido: Lamine Fati (ID: 0)
+2025-09-27 19:23:14,910 - INFO -Villano creado: Lamine Fati
+2025-09-27 19:23:15,226 - INFO -personaje añadido: Marcos Araujo (ID: 0)
+2025-09-27 19:23:15,226 - INFO -Villano creado: Marcos Araujo
+2025-09-27 19:23:15,450 - INFO -personaje añadido: Ilias Balde (ID: 0)
+2025-09-27 19:23:15,450 - INFO -Villano creado: Ilias Balde
+2025-09-27 19:23:16,783 - INFO -Personajes listados
+2025-09-27 19:23:51,608 - INFO -Buscando personajes con el atributo Ausencias entre 10 y 70
+2025-09-27 19:24:08,438 - INFO -Buscando personajes por nombre: 'Lunin'
+2025-09-27 19:24:11,770 - INFO -Personajes listados
+2025-09-27 19:24:24,840 - INFO -Buscando personajes por nombre: 'Vinicius'
+2025-09-27 19:24:24,840 - INFO -Se han encontrado 1 personajes con nombre 'Vinicius'
+2025-09-27 19:24:24,840 - INFO -Se han encontrado 2 personajes con nombre 'Vinicius'
+2025-09-27 19:24:29,209 - INFO -Personajes listados
+2025-09-27 19:24:38,858 - INFO -Buscando personajes por nombre: 'MArcos'
+2025-09-27 19:24:38,858 - INFO -Se han encontrado 1 personajes con nombre 'MArcos'
+2025-09-27 19:24:38,858 - INFO -Se han encontrado 2 personajes con nombre 'MArcos'
+2025-09-27 19:24:42,907 - ERROR -Error en el menú: invalid literal for int() with base 10: 'MArcos'
+2025-09-27 19:24:45,022 - ERROR -Error en el menú: invalid literal for int() with base 10: 'marcos'
+2025-09-27 19:24:51,345 - INFO -Buscando personajes por nombre: 'marcos'
+2025-09-27 19:24:51,345 - INFO -Se han encontrado 1 personajes con nombre 'marcos'
+2025-09-27 19:24:51,345 - INFO -Se han encontrado 2 personajes con nombre 'marcos'
+2025-09-27 19:25:02,932 - INFO -Buscando personajes con el atributo ausencias entre 10 y 100
+2025-09-27 19:25:02,932 - ERROR -error al buscar el atributo ausencias
+2025-09-27 19:25:11,061 - INFO -Personajes listados
+2025-09-27 19:25:22,395 - INFO -personaje añadido: Luka Courtois (ID: 0)
+2025-09-27 19:25:22,395 - INFO -Heroe creado: Luka Courtois
+2025-09-27 19:25:26,512 - INFO -Personajes listados
+2025-09-27 19:25:38,684 - INFO -Buscando personajes con el atributo arquitecto entre 10 y 100
+2025-09-27 19:25:38,685 - ERROR -error al buscar el atributo arquitecto
+2025-09-27 19:25:48,180 - INFO -Buscando personajes con el atributo Arquitecto entre 10 y 14
+2025-09-27 19:25:58,777 - INFO -Buscando personajes con el atributo Arquitecto entre 10 y 100
+2025-09-27 19:26:03,143 - INFO -personaje añadido: Vinicius Rudiger (ID: 0)
+2025-09-27 19:26:03,143 - INFO -Heroe creado: Vinicius Rudiger
+2025-09-27 19:26:03,750 - INFO -personaje añadido: Rudiger Courtois (ID: 0)
+2025-09-27 19:26:03,751 - INFO -Heroe creado: Rudiger Courtois
+2025-09-27 19:26:04,066 - INFO -personaje añadido: Kylian Ceballos (ID: 0)
+2025-09-27 19:26:04,066 - INFO -Heroe creado: Kylian Ceballos
+2025-09-27 19:26:04,267 - INFO -personaje añadido: Endrick Courtois (ID: 0)
+2025-09-27 19:26:04,267 - INFO -Heroe creado: Endrick Courtois
+2025-09-27 19:26:04,470 - ERROR -Error en el menú: invalid literal for int() with base 10: ''
+2025-09-27 19:26:04,673 - INFO -personaje añadido: Rudiger Ceballos (ID: 0)
+2025-09-27 19:26:04,673 - INFO -Heroe creado: Rudiger Ceballos
+2025-09-27 19:26:05,167 - INFO -personaje añadido: Arda Carvajal (ID: 0)
+2025-09-27 19:26:05,168 - INFO -Heroe creado: Arda Carvajal
+2025-09-27 19:26:05,415 - INFO -personaje añadido: Arda Éder (ID: 0)
+2025-09-27 19:26:05,415 - INFO -Heroe creado: Arda Éder
+2025-09-27 19:26:05,797 - INFO -personaje añadido: Vinicius Kroos (ID: 0)
+2025-09-27 19:26:05,797 - INFO -Heroe creado: Vinicius Kroos
+2025-09-27 19:26:06,451 - INFO -personaje añadido: Thibaut Alaba (ID: 0)
+2025-09-27 19:26:06,451 - INFO -Heroe creado: Thibaut Alaba
+2025-09-27 19:26:07,485 - INFO -personaje añadido: Pedri García (ID: 0)
+2025-09-27 19:26:07,485 - INFO -Villano creado: Pedri García
+2025-09-27 19:26:07,868 - INFO -personaje añadido: Pedri Raphinha (ID: 0)
+2025-09-27 19:26:07,868 - INFO -Villano creado: Pedri Raphinha
+2025-09-27 19:26:08,295 - INFO -personaje añadido: Arnau Balde (ID: 0)
+2025-09-27 19:26:08,295 - INFO -Villano creado: Arnau Balde
+2025-09-27 19:26:08,633 - INFO -personaje añadido: Robert Félix (ID: 0)
+2025-09-27 19:26:08,633 - INFO -Villano creado: Robert Félix
+2025-09-27 19:26:09,015 - INFO -personaje añadido: Gavi Fati (ID: 0)
+2025-09-27 19:26:09,015 - INFO -Villano creado: Gavi Fati
+2025-09-27 19:26:09,353 - INFO -personaje añadido: Ansu García (ID: 0)
+2025-09-27 19:26:09,353 - INFO -Villano creado: Ansu García
+2025-09-27 19:26:09,713 - INFO -personaje añadido: Ronald Lewandowski (ID: 0)
+2025-09-27 19:26:09,713 - INFO -Villano creado: Ronald Lewandowski
+2025-09-27 19:26:09,982 - INFO -personaje añadido: Alejandro Roberto (ID: 0)
+2025-09-27 19:26:09,982 - INFO -Villano creado: Alejandro Roberto
+2025-09-27 19:26:10,275 - INFO -personaje añadido: Lamine Pedri (ID: 0)
+2025-09-27 19:26:10,275 - INFO -Villano creado: Lamine Pedri
+2025-09-27 19:26:10,524 - INFO -personaje añadido: João Pérez (ID: 0)
+2025-09-27 19:26:10,524 - INFO -Villano creado: João Pérez
+2025-09-27 19:26:12,998 - INFO -emparejamiento: Heroe: Arda con poder: 43.0vs Villano: Arnau con poder: 51.5resultado: tienen mas o menos el mismo poder
+2025-09-27 19:26:18,668 - INFO -emparejamiento: Heroe: Vinicius con poder: 33.8vs Villano: Gavi con poder: 11.0resultado: muy descompensado
+2025-09-27 19:26:20,017 - INFO -emparejamiento: Heroe: Vinicius con poder: 28.2vs Villano: Ronald con poder: 38.75resultado: muy descompensado
+2025-09-27 19:26:20,828 - INFO -emparejamiento: Heroe: Endrick con poder: 53.4vs Villano: Lamine con poder: 10.25resultado: esta desequilibrado
+2025-09-27 19:26:21,547 - INFO -emparejamiento: Heroe: Vinicius con poder: 28.2vs Villano: Pedri con poder: 68.5resultado: esta desequilibrado
+2025-09-27 19:27:00,518 - INFO -Buscando personajes con el atributo arquitecto entre 10 y 100
+2025-09-27 19:27:00,518 - ERROR -error al buscar el atributo arquitecto
+2025-09-27 19:28:47,933 - INFO -personaje añadido: Jesús Carvajal (ID: 0)
+2025-09-27 19:28:47,933 - INFO -Heroe creado: Jesús Carvajal
+2025-09-27 19:29:10,141 - INFO -Buscando personajes con el atributo arquitecto entre 10 y 100
+2025-09-27 19:29:10,141 - ERROR -error al buscar el atributo arquitecto
+2025-09-27 19:29:32,191 - INFO -personaje añadido: Lunin Bellingham (ID: 0)
+2025-09-27 19:29:32,191 - INFO -Heroe creado: Lunin Bellingham
+2025-09-27 19:29:38,264 - INFO -personaje añadido: Vinicius Vinicius (ID: 0)
+2025-09-27 19:29:38,264 - INFO -Heroe creado: Vinicius Vinicius
+2025-09-27 19:29:39,502 - INFO -personaje añadido: Pau Raphinha (ID: 0)
+2025-09-27 19:29:39,502 - INFO -Villano creado: Pau Raphinha
+2025-09-27 19:29:40,155 - INFO -personaje añadido: Pau Gavi (ID: 0)
+2025-09-27 19:29:40,155 - INFO -Villano creado: Pau Gavi
+2025-09-27 19:30:09,514 - INFO -personaje añadido: Arda Rudiger (ID: 0)
+2025-09-27 19:30:09,515 - INFO -Heroe creado: Arda Rudiger
+2025-09-27 19:30:11,707 - INFO -personaje añadido: Rodrygo Alaba (ID: 0)
+2025-09-27 19:30:11,707 - INFO -Heroe creado: Rodrygo Alaba
+2025-09-27 19:30:15,217 - INFO -personaje añadido: Sergio Félix (ID: 0)
+2025-09-27 19:30:15,217 - INFO -Villano creado: Sergio Félix
+2025-09-27 19:30:16,072 - INFO -personaje añadido: Alejandro Torres (ID: 0)
+2025-09-27 19:30:16,072 - INFO -Villano creado: Alejandro Torres
+2025-09-27 19:30:16,859 - INFO -personaje añadido: Ilias Balde (ID: 0)
+2025-09-27 19:30:16,859 - INFO -Villano creado: Ilias Balde
+2025-09-27 19:31:11,844 - INFO -Buscando personajes con el atributo arquitecto entre 10 y 100
+2025-09-27 19:31:11,845 - ERROR -error al buscar el atributo arquitecto
+2025-09-27 19:31:49,218 - INFO -Personajes listados
+2025-09-27 19:31:54,862 - ERROR -Error en el menú: invalid literal for int() with base 10: ''
+2025-09-27 19:33:28,807 - INFO -personaje añadido: Arda Rudiger (ID: 0)
+2025-09-27 19:33:28,808 - INFO -Heroe creado: Arda Rudiger
+2025-09-27 19:33:30,131 - INFO -personaje añadido: Jesús Courtois (ID: 0)
+2025-09-27 19:33:30,132 - INFO -Heroe creado: Jesús Courtois
+2025-09-27 19:33:30,898 - INFO -personaje añadido: Rodrygo Vinicius (ID: 0)
+2025-09-27 19:33:30,898 - INFO -Heroe creado: Rodrygo Vinicius
+2025-09-27 19:33:31,258 - INFO -personaje añadido: Kylian Tchouaméni (ID: 0)
+2025-09-27 19:33:31,258 - INFO -Heroe creado: Kylian Tchouaméni
+2025-09-27 19:33:31,504 - INFO -personaje añadido: Vinicius Militão (ID: 0)
+2025-09-27 19:33:31,504 - INFO -Heroe creado: Vinicius Militão
+2025-09-27 19:33:31,751 - INFO -personaje añadido: Vinicius Camavinga (ID: 0)
+2025-09-27 19:33:31,752 - INFO -Heroe creado: Vinicius Camavinga
+2025-09-27 19:33:32,384 - INFO -personaje añadido: David Militão (ID: 0)
+2025-09-27 19:33:32,385 - INFO -Heroe creado: David Militão
+2025-09-27 19:33:32,611 - INFO -personaje añadido: Aurélien Ceballos (ID: 0)
+2025-09-27 19:33:32,611 - INFO -Heroe creado: Aurélien Ceballos
+2025-09-27 19:33:33,170 - INFO -personaje añadido: David Kroos (ID: 0)
+2025-09-27 19:33:33,170 - INFO -Heroe creado: David Kroos
+2025-09-27 19:33:33,374 - INFO -personaje añadido: Rudiger Alaba (ID: 0)
+2025-09-27 19:33:33,375 - INFO -Heroe creado: Rudiger Alaba
+2025-09-27 19:33:33,622 - INFO -personaje añadido: David Militão (ID: 0)
+2025-09-27 19:33:33,622 - INFO -Heroe creado: David Militão
+2025-09-27 19:33:33,888 - INFO -personaje añadido: Federico Ceballos (ID: 0)
+2025-09-27 19:33:33,889 - INFO -Heroe creado: Federico Ceballos
+2025-09-27 19:33:34,161 - INFO -personaje añadido: Éder Rudiger (ID: 0)
+2025-09-27 19:33:34,162 - INFO -Heroe creado: Éder Rudiger
+2025-09-27 19:33:38,153 - INFO -personaje añadido: Ilias Torres (ID: 0)
+2025-09-27 19:33:38,153 - INFO -Villano creado: Ilias Torres
+2025-09-27 19:34:33,197 - INFO -Buscando personajes con el atributo arquitecto entre 10 y 100
+2025-09-27 19:39:32,443 - INFO -personaje añadido: Toni Bellingham (ID: 0)
+2025-09-27 19:39:32,444 - INFO -Heroe creado: Toni Bellingham
+2025-09-27 19:39:33,410 - INFO -personaje añadido: Rodrygo Tchouaméni (ID: 0)
+2025-09-27 19:39:33,410 - INFO -Heroe creado: Rodrygo Tchouaméni
+2025-09-27 19:39:34,086 - INFO -personaje añadido: Jesús Éder (ID: 0)
+2025-09-27 19:39:34,087 - INFO -Heroe creado: Jesús Éder
+2025-09-27 19:39:34,581 - INFO -personaje añadido: Jesús Kroos (ID: 0)
+2025-09-27 19:39:34,581 - INFO -Heroe creado: Jesús Kroos
+2025-09-27 19:39:35,100 - INFO -personaje añadido: Fran Vinicius (ID: 0)
+2025-09-27 19:39:35,100 - INFO -Heroe creado: Fran Vinicius
+2025-09-27 19:39:35,414 - INFO -personaje añadido: Thibaut Rudiger (ID: 0)
+2025-09-27 19:39:35,414 - INFO -Heroe creado: Thibaut Rudiger
+2025-09-27 19:39:35,706 - INFO -personaje añadido: Kylian Mendy (ID: 0)
+2025-09-27 19:39:35,706 - INFO -Heroe creado: Kylian Mendy
+2025-09-27 19:39:35,955 - INFO -personaje añadido: Luka Rodrygo (ID: 0)
+2025-09-27 19:39:35,955 - INFO -Heroe creado: Luka Rodrygo
+2025-09-27 19:39:36,178 - INFO -personaje añadido: Federico Rudiger (ID: 0)
+2025-09-27 19:39:36,178 - INFO -Heroe creado: Federico Rudiger
+2025-09-27 19:39:36,381 - INFO -personaje añadido: Endrick Camavinga (ID: 0)
+2025-09-27 19:39:36,381 - INFO -Heroe creado: Endrick Camavinga
+2025-09-27 19:39:36,696 - INFO -personaje añadido: Rudiger Alaba (ID: 0)
+2025-09-27 19:39:36,697 - INFO -Heroe creado: Rudiger Alaba
+2025-09-27 19:39:37,980 - INFO -personaje añadido: Pedri Roberto (ID: 0)
+2025-09-27 19:39:37,980 - INFO -Villano creado: Pedri Roberto
+2025-09-27 19:39:38,522 - INFO -personaje añadido: Alejandro Torres (ID: 0)
+2025-09-27 19:39:38,522 - INFO -Villano creado: Alejandro Torres
+2025-09-27 19:39:39,104 - INFO -personaje añadido: Eric Balde (ID: 0)
+2025-09-27 19:39:39,104 - INFO -Villano creado: Eric Balde
+2025-09-27 19:39:39,599 - INFO -personaje añadido: João Yamal (ID: 0)
+2025-09-27 19:39:39,599 - INFO -Villano creado: João Yamal
+2025-09-27 19:39:40,230 - INFO -personaje añadido: Robert Araujo (ID: 0)
+2025-09-27 19:39:40,230 - INFO -Villano creado: Robert Araujo
+2025-09-27 19:39:40,747 - INFO -personaje añadido: Ronald Raphinha (ID: 0)
+2025-09-27 19:39:40,747 - INFO -Villano creado: Ronald Raphinha
+2025-09-27 19:39:41,219 - INFO -personaje añadido: Pau Fati (ID: 0)
+2025-09-27 19:39:41,219 - INFO -Villano creado: Pau Fati
+2025-09-27 19:39:41,579 - INFO -personaje añadido: Alejandro Félix (ID: 0)
+2025-09-27 19:39:41,579 - INFO -Villano creado: Alejandro Félix
+2025-09-27 19:39:41,916 - INFO -personaje añadido: Pedri Martínez (ID: 0)
+2025-09-27 19:39:41,916 - INFO -Villano creado: Pedri Martínez
+2025-09-27 19:39:42,210 - INFO -personaje añadido: Ronald Lewandowski (ID: 0)
+2025-09-27 19:39:42,210 - INFO -Villano creado: Ronald Lewandowski
+2025-09-27 19:39:43,108 - INFO -personaje añadido: Ansu García (ID: 0)
+2025-09-27 19:39:43,108 - INFO -Villano creado: Ansu García
+2025-09-27 19:39:43,400 - INFO -personaje añadido: Aurélien Rodrygo (ID: 0)
+2025-09-27 19:39:43,400 - INFO -Heroe creado: Aurélien Rodrygo
+2025-09-27 19:39:43,671 - INFO -personaje añadido: Thibaut Camavinga (ID: 0)
+2025-09-27 19:39:43,671 - INFO -Heroe creado: Thibaut Camavinga
+2025-09-27 19:39:43,918 - INFO -personaje añadido: Federico Bellingham (ID: 0)
+2025-09-27 19:39:43,918 - INFO -Heroe creado: Federico Bellingham
+2025-09-27 19:39:44,143 - INFO -personaje añadido: Jesús Bellingham (ID: 0)
+2025-09-27 19:39:44,143 - INFO -Heroe creado: Jesús Bellingham
+2025-09-27 19:39:44,391 - INFO -personaje añadido: Fran Rudiger (ID: 0)
+2025-09-27 19:39:44,391 - INFO -Heroe creado: Fran Rudiger
+2025-09-27 19:39:44,638 - INFO -personaje añadido: Dani Mendy (ID: 0)
+2025-09-27 19:39:44,639 - INFO -Heroe creado: Dani Mendy
+2025-09-27 19:39:44,818 - INFO -personaje añadido: Rodrygo Alaba (ID: 0)
+2025-09-27 19:39:44,819 - INFO -Heroe creado: Rodrygo Alaba
+2025-09-27 19:39:45,065 - INFO -personaje añadido: Arda Camavinga (ID: 0)
+2025-09-27 19:39:45,065 - INFO -Heroe creado: Arda Camavinga
+2025-09-27 19:39:45,291 - INFO -personaje añadido: Fran Tchouaméni (ID: 0)
+2025-09-27 19:39:45,291 - INFO -Heroe creado: Fran Tchouaméni
+2025-09-27 19:39:45,404 - INFO -personaje añadido: Vinicius Ceballos (ID: 0)
+2025-09-27 19:39:45,404 - INFO -Heroe creado: Vinicius Ceballos
+2025-09-27 19:39:48,148 - INFO -emparejamiento: Heroe: Rudiger con poder: 47.6vs Villano: Pedri con poder: 61.0resultado: muy descompensado
+2025-09-27 19:39:57,284 - INFO -Buscando personajes con el atributo arquitecto entre 10 y 100
+2025-09-27 19:39:57,285 - ERROR -error al buscar el atributo arquitecto
+2025-09-27 19:41:40,199 - INFO -personaje añadido: Jesús Ceballos (ID: 0)
+2025-09-27 19:41:40,199 - INFO -Heroe creado: Jesús Ceballos
+2025-09-27 19:41:42,202 - INFO -personaje añadido: Federico Vinicius (ID: 0)
+2025-09-27 19:41:42,202 - INFO -Heroe creado: Federico Vinicius
+2025-09-27 19:41:42,651 - INFO -personaje añadido: Lunin Rodrygo (ID: 0)
+2025-09-27 19:41:42,651 - INFO -Heroe creado: Lunin Rodrygo
+2025-09-27 19:41:42,922 - INFO -personaje añadido: Luka Militão (ID: 0)
+2025-09-27 19:41:42,922 - INFO -Heroe creado: Luka Militão
+2025-09-27 19:41:43,168 - INFO -personaje añadido: Fran Camavinga (ID: 0)
+2025-09-27 19:41:43,168 - INFO -Heroe creado: Fran Camavinga
+2025-09-27 19:41:43,417 - INFO -personaje añadido: Kylian Vinicius (ID: 0)
+2025-09-27 19:41:43,417 - INFO -Heroe creado: Kylian Vinicius
+2025-09-27 19:41:44,249 - INFO -personaje añadido: Ronald Gavi (ID: 0)
+2025-09-27 19:41:44,249 - INFO -Villano creado: Ronald Gavi
+2025-09-27 19:41:44,429 - INFO -personaje añadido: Alejandro Pedri (ID: 0)
+2025-09-27 19:41:44,429 - INFO -Villano creado: Alejandro Pedri
+2025-09-27 19:41:44,679 - INFO -personaje añadido: Lamine Balde (ID: 0)
+2025-09-27 19:41:44,679 - INFO -Villano creado: Lamine Balde
+2025-09-27 19:41:45,014 - INFO -personaje añadido: Lamine García (ID: 0)
+2025-09-27 19:41:45,014 - INFO -Villano creado: Lamine García
+2025-09-27 19:41:45,261 - INFO -personaje añadido: Lamine Félix (ID: 0)
+2025-09-27 19:41:45,261 - INFO -Villano creado: Lamine Félix
+2025-09-27 19:41:45,532 - INFO -personaje añadido: Frenkie Gavi (ID: 0)
+2025-09-27 19:41:45,532 - INFO -Villano creado: Frenkie Gavi
+2025-09-27 19:41:45,689 - INFO -personaje añadido: Eric Araujo (ID: 0)
+2025-09-27 19:41:45,689 - INFO -Villano creado: Eric Araujo
+2025-09-27 19:41:51,899 - INFO -Buscando personajes con el atributo arquitecto entre 10 y 100
+2025-09-27 19:41:51,899 - INFO -personaje encontrado Jesús atributo : arquitecto con valor 39
+2025-09-27 19:41:51,899 - INFO -personaje encontrado Lunin atributo : arquitecto con valor 81
+2025-09-27 19:41:51,899 - INFO -personaje encontrado Luka atributo : arquitecto con valor 56
+2025-09-27 19:41:51,899 - INFO -personaje encontrado Fran atributo : arquitecto con valor 58
+2025-09-27 19:41:51,899 - INFO -personaje encontrado Kylian atributo : arquitecto con valor 83
+2025-09-27 19:41:51,899 - INFO -personaje encontrado Arda atributo : arquitecto con valor 60
+2025-09-27 19:42:00,291 - INFO -Buscando personajes con el atributo ausencias entre 10 y 100
+2025-09-27 19:42:00,292 - INFO -personaje encontrado Ronald atributo : ausencias con valor 84
+2025-09-27 19:42:00,292 - INFO -personaje encontrado Alejandro atributo : ausencias con valor 92
+2025-09-27 19:42:00,292 - INFO -personaje encontrado Lamine atributo : ausencias con valor 61
+2025-09-27 19:42:00,292 - INFO -personaje encontrado Lamine atributo : ausencias con valor 69
+2025-09-27 19:42:00,292 - INFO -personaje encontrado Lamine atributo : ausencias con valor 84
+2025-09-27 19:42:00,292 - INFO -personaje encontrado Frenkie atributo : ausencias con valor 81
+2025-09-27 19:42:00,292 - INFO -personaje encontrado Eric atributo : ausencias con valor 21
+2025-09-27 19:42:02,991 - INFO -emparejamiento: Heroe: Jesús con poder: 55.0vs Villano: Frenkie con poder: 66.25resultado: muy descompensado
+2025-09-27 19:42:10,799 - ERROR -Error al gestionar la opcion de la simulacion Invalid isoformat string: ''
+2025-09-27 19:42:25,671 - INFO -personaje añadido: test test (ID: 0)
+2025-09-27 19:42:25,672 - INFO -Heroe creado: test test
+2025-09-27 19:42:35,032 - ERROR -Error al gestionar la opcion de la simulacion Invalid isoformat string: '2000-02-02-02'
+2025-09-27 19:42:51,141 - INFO -personaje añadido: test test (ID: 0)
+2025-09-27 19:42:51,141 - INFO -Villano creado: test test
+2025-09-27 19:42:54,066 - INFO -personaje añadido: Rudiger Carvajal (ID: 0)
+2025-09-27 19:42:54,066 - INFO -Heroe creado: Rudiger Carvajal
+2025-09-27 19:42:56,159 - INFO -personaje añadido: Thomas Pérez (ID: 0)
+2025-09-27 19:42:56,159 - INFO -Villano creado: Thomas Pérez
+2025-09-27 19:42:57,667 - INFO -personaje añadido: Pedri Araujo (ID: 0)
+2025-09-27 19:42:57,667 - INFO -Villano creado: Pedri Araujo
+2025-09-27 19:43:02,031 - INFO -Buscando personajes por nombre: 'lunin'
+2025-09-27 19:43:02,031 - INFO -Se han encontrado 1 personajes con nombre 'lunin'
+2025-09-27 19:43:08,511 - ERROR -Error en el menú: invalid literal for int() with base 10: 'lamine'
+2025-09-27 19:43:11,527 - INFO -personaje añadido: Ferran Lewandowski (ID: 0)
+2025-09-27 19:43:11,527 - INFO -Villano creado: Ferran Lewandowski
+2025-09-27 19:43:14,677 - ERROR -Error en el menú: invalid literal for int() with base 10: ''
+2025-09-27 19:43:21,403 - INFO -Buscando personajes por nombre: 'ferran'
+2025-09-27 19:43:21,404 - INFO -Se han encontrado 1 personajes con nombre 'ferran'
+2025-09-27 19:43:25,476 - INFO -emparejamiento: Heroe: Kylian con poder: 62.2vs Villano: Thomas con poder: 32.0resultado: esta desequilibrado
+2025-09-27 19:43:27,906 - ERROR -Error en el menú: invalid literal for int() with base 10: ''
+2025-09-27 19:43:29,459 - ERROR -Error en el menú: invalid literal for int() with base 10: ''

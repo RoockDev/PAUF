@@ -6,6 +6,6 @@ def setup_logger():
         format = '%(asctime)s - %(levelname)s -%(message)s', #como se va a mostrar el mensaje
         handlers=[ # manejadores donde se van a guardar los mensajes
             logging.FileHandler("logs/app.log"), #Guarda en un archivo
-            logging.StreamHandler() #Tambien imprime en consola
+            logging.StreamHandler() #Envia los mensajes de log a la consola
         ]
     )

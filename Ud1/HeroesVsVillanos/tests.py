@@ -7,7 +7,14 @@ from log import setup_logger
 from fabrica import Fabrica
 
 # configuracion logging
-setup_logger()
+logging.basicConfig(  # configuracion de como se va a hacer el registro
+    level=logging.INFO,  # solo registra mensajes de nivel INFO o superior
+    format='%(asctime)s - %(levelname)s -%(message)s',  # como se va a mostrar el mensaje
+    handlers=[  # manejadores donde se van a guardar los mensajes
+        logging.FileHandler("logs/tests.log"),  # Guarda en un archivo
+        logging.StreamHandler()  # Tambien imprime en consola
+    ]
+)
 
 
 def menu():
@@ -30,17 +37,17 @@ def gestion_simulacion(opcion, gestor):
         match opcion:
             case 1:
                 print("Crear Heroe")
-                nombre = input("nombre del heroe:")
-                apellidos = input("apellidos del heroe:")
-                fecha = input("Introduce la fecha de nacimiento (YYYY-MM-DD)")
+                nombre = input("nombre del heroe:\n")
+                apellidos = input("apellidos del heroe:\n")
+                fecha = input("Introduce la fecha de nacimiento (YYYY-MM-DD)\n")
                 heroe = Fabrica.crear_heroe(nombre, apellidos, fecha)
                 gestor.agregar_personajes(heroe)
                 logging.info(f"Heroe creado: {heroe.nombre} {heroe.apellidos}")
             case 2:
                 print("Crear villano")
-                nombre = input("nombre del villano:")
-                apellidos = input("apellidos del villano")
-                fecha = input("Fecha de nacimiento(YYYY-MM-DD)")
+                nombre = input("nombre del villano:\n")
+                apellidos = input("apellidos del villano\n")
+                fecha = input("Fecha de nacimiento(YYYY-MM-DD)\n")
                 villano = Fabrica.crear_villano(nombre, apellidos, fecha)
                 gestor.agregar_personajes(villano)
                 logging.info(f"Villano creado: {villano.nombre} {villano.apellidos}")
@@ -56,7 +63,7 @@ def gestion_simulacion(opcion, gestor):
                 logging.info(f"Villano creado: {villano.nombre} {villano.apellidos}")
             case 5:
                 print("Buscar heroe o villano por nombre")
-                nombre = input("Nombre a buscar")
+                nombre = input("Nombre a buscar\n")
                 resultado = gestor.buscar_por_nombre(nombre)
                 if resultado:
                     print("resultados encontrados")
@@ -66,9 +73,9 @@ def gestion_simulacion(opcion, gestor):
                     print("No se encontraron resultados")
             case 6:
                 print("Buscar heroe o villano por atributo y nivel")
-                atributo = input("nombre de atributo")
-                valor_min = input("Introduce el valor minimo")
-                valor_max = input("Introduce el valor maximo")
+                atributo = input("nombre de atributo\n")
+                valor_min = int(input("Introduce el valor minimo\n"))
+                valor_max = int(input("Introduce el valor maximo\n"))
                 resultado = gestor.buscar_por_atributo(atributo, valor_min, valor_max)
                 if resultado:
                     print("Resultados encontrados")
@@ -87,7 +94,7 @@ def gestion_simulacion(opcion, gestor):
                 print("Listar todos los heroes")
                 gestor.listar_personajes()
             case 9:
-                print("saliendo del programar")
+                print("saliendo del programa")
                 salir = False
 
             case _:

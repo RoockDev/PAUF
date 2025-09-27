@@ -19,3 +19,13 @@ class Heroe(Personaje):
             self.arquitecto +
             self.detallista
         ) / 5
+
+    def __str__(self):
+        return (f"Heroe: {self.nombre} {self.apellidos} "
+                f"(ID: {self.identificador}, Edad: {self.calcular_edad()})\n"
+                f"  Código Limpio: {self.codigo_limpio}\n"
+                f"  Bien Documentado: {self.bien_documentado}\n"
+                f"  GITGod: {self.git_god}\n"
+                f"  Arquitecto: {self.arquitecto}\n"
+                f"  Detallista: {self.detallista}\n"
+                f"  Puntuación Total: {self.puntuacion_total:.2f}")

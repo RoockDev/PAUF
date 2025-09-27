@@ -10,13 +10,14 @@ class Personaje:
         self.identificador = Personaje._contador_id
         #la edad debe ser date
         """
+        como se que me lo vas a preguntar he estado buscando y
         utilizo "isinstance()" y no "type()" por uqe con isinstace maneja mejor la herencia
         por ejemplo si tienes una subclase de str, isinstance() devuelve true mientras que type() no"
         """
         if isinstance(fecha_nacimiento,str):
             self.fecha_nacimiento = date.fromisoformat(fecha_nacimiento) #transforma a date tipo iso YYYY-MM-DD
         else:
-            self.fecha_nacimiento = fecha_nacimiento
+            self.fecha_nacimiento = fecha_nacimiento  #creo que este else puede sobrar pero por si acaso se introduce en otro formato
         self.puntuacion_total = 0
 
     def calcular_edad(self):
