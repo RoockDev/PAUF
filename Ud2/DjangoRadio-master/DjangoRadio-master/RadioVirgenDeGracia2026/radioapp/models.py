@@ -34,7 +34,7 @@ class Cancion(models.Model):
     # una cancion solo puede tener un autor
     autor = models.ForeignKey('Autor',on_delete=models.CASCADE,null=True,blank=True,related_name='canciones')
     nombre = models.CharField(max_length=20)
-    ano_lanzamiento = models.IntegerField()
+    ano_lanzamiento = models.IntegerField(null=True,blank=True)
     duracion = models.IntegerField()
 
 class Autor(models.Model):
@@ -43,16 +43,16 @@ class Autor(models.Model):
     apellido = models.CharField(max_length=20)
     genero = models.CharField(choices=GENEROS,max_length=12)
 
-class Podcats(models.Model):
+class Podcast(models.Model):
     TEMATICAS = [('T','TERROR'),('I','INVESTIGACION'), ('A','ACTUALIDAD')]
     nombre = models.CharField(max_length=50)
     descripcion = models.CharField(max_length=200)
     tematica = models.CharField(choices=TEMATICAS,max_length=20)
     autores = models.ManyToManyField(Autor,related_name='podcats')
 
-class Reproducciones(models.Model):
+class Reproduccion(models.Model):
     usuario = models.ForeignKey(Usuario,on_delete=models.CASCADE)
     cancion = models.ForeignKey(Cancion, on_delete=models.CASCADE,null= True, blank=True)
-    podcast = models.ForeignKey(Podcats, on_delete=models.CASCADE,null= True, blank=True)
+    podcast = models.ForeignKey(Podcast, on_delete=models.CASCADE,null= True, blank=True)
     fecha_reproduccion = models.DateField(auto_now_add=True)
 
