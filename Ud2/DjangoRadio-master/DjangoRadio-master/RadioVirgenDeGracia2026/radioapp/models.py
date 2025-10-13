@@ -2,6 +2,8 @@ from django.db import models
 from datetime import date
 
 # Create your models here.
+
+
 class Usuario(models.Model):
     nombre = models.CharField(max_length=20)
     apellido = models.CharField(max_length=20)
@@ -10,6 +12,7 @@ class Usuario(models.Model):
     telefono = models.CharField(max_length=12)
     email = models.EmailField()
     activo = models.BooleanField(default=True)
+    preferida = models.ForeignKey("Direccion",null = True,blank=True, on_delete=models.SET_NULL,related_name='usuario_preferido')
 
     def calcular_edad(self):
         hoy = date.today()
@@ -27,7 +30,7 @@ class Direccion(models.Model):
     numero = models.IntegerField()
     ciudad = models.CharField(choices=CIUDADES)
     usuario = models.ForeignKey(Usuario, on_delete=models.CASCADE,related_name='direcciones')
-    preferida = models.BooleanField(default=False)
+
 
 class Cancion(models.Model):
 

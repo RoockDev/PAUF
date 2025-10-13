@@ -7,7 +7,7 @@ fake = Faker('es_ES')
 
 
 class Command(BaseCommand):
-    help = 'Carga de datoos de pruebas con Faker'
+
 
     def handle(self, *args, **options):
         self.stdout.write(self.style.SUCCESS('Iniciando script de carga masiva'))

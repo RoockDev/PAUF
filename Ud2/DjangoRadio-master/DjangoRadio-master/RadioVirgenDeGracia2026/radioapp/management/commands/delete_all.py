@@ -2,7 +2,7 @@ from django.core.management.base import  BaseCommand
 from ...models import *
 
 class Command(BaseCommand):
-    help = 'Borra todos los datos de las tablas de la aplicacion radioapp'
+
 
     def handle(self, *args, **options):
         self.stdout.write(self.style.ERROR('VAS A BORRAR TODOS LOS DATOS'))
