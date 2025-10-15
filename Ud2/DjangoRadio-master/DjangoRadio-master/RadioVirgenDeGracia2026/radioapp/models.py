@@ -54,7 +54,7 @@ class Podcast(models.Model):
     autores = models.ManyToManyField(Autor,related_name='podcats')
 
 class Reproduccion(models.Model):
-    usuario = models.ForeignKey(Usuario,on_delete=models.CASCADE)
+    usuario = models.ForeignKey(Usuario,on_delete=models.CASCADE,related_name='reproducciones')
     cancion = models.ForeignKey(Cancion, on_delete=models.CASCADE,null= True, blank=True)
     podcast = models.ForeignKey(Podcast, on_delete=models.CASCADE,null= True, blank=True)
     fecha_reproduccion = models.DateField(auto_now_add=True)
