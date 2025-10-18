@@ -12,7 +12,7 @@ class Usuario(models.Model):
     telefono = models.CharField(max_length=12)
     email = models.EmailField()
     activo = models.BooleanField(default=True)
-    preferida = models.ForeignKey("Direccion",null = True,blank=True, on_delete=models.SET_NULL,related_name='usuario_preferido')
+
 
     def calcular_edad(self):
         hoy = date.today()
@@ -24,12 +24,37 @@ class Usuario(models.Model):
     def __str__(self):
         return f"{self.id} {self.nick}"
 
+
+
 class Direccion(models.Model):
     CIUDADES = [('CIU','CIUDAD REAL'), ('ARG','ARGAMASILLA'), ('PU','PUERTOLLANO'), ('ALM','ALMODOVAR')]
     calle = models.CharField(max_length=10)
     numero = models.IntegerField()
     ciudad = models.CharField(choices=CIUDADES)
     usuario = models.ForeignKey(Usuario, on_delete=models.CASCADE,related_name='direcciones')
+
+
+class DireccionUsuario(models.Model):
+    usuario = models.ForeignKey('Usuario')
+    direccion = models.ForeignKey('Direccion')
+    preferida = models.BooleanField(default='false')
+    # cuando le actualizes la direccion a un usuario que ya existe
+    # que tenga una direccion a true predefinida si le metes un nueva direccion
+    # preferida tienes que ponerlas todas las demas a false
+    def save(self,*args,**kwargs):
+        if self.preferida:
+            DireccionUsuario.objects.filter(
+                usuario= self.usuario
+            ).exclude(
+                pk=self.pk #excluimos el objeto que estamos guardando ahora mismo
+            ).update(
+                preferida = False #ponemos todas en false
+            )
+        super(DireccionUsuario,self).save(*args,**kwargs) # sin esta linea de abajo no se guarda
+
+
+
+
 
 
 class Cancion(models.Model):

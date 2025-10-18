@@ -5,6 +5,7 @@ from ...models import *
 
 class Command(BaseCommand):
     def handle(self, *args, **options):
+        help = "comando parabuscar reproducciones entre edades"
         personas = Usuario.objects.filter(fecha_nacimiento__year__gte=1992, fecha_nacimiento__year__lte=1994)
         reproducciones = Reproduccion.objects.filter(usuario__in=personas)
         for persona in personas:
