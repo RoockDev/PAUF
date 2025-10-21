@@ -35,8 +35,8 @@ class Direccion(models.Model):
 
 
 class DireccionUsuario(models.Model):
-    usuario = models.ForeignKey('Usuario')
-    direccion = models.ForeignKey('Direccion')
+    usuario = models.ForeignKey('Usuario',on_delete=models.CASCADE)
+    direccion = models.ForeignKey('Direccion',on_delete=models.CASCADE)
     preferida = models.BooleanField(default='false')
     # cuando le actualizes la direccion a un usuario que ya existe
     # que tenga una direccion a true predefinida si le metes un nueva direccion
