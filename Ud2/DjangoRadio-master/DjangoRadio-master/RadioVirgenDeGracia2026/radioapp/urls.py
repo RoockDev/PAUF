@@ -25,7 +25,13 @@ urlpatterns = [
     path('get_autor/<int:id>/',views.get_autor),
     path('create_autor/',views.create_autor),
     path('update_autor/<int:id>/',views.update_autor),
-    path('delete_autor/<int:id>/',views.delete_autor)
+    path('delete_autor/<int:id>/',views.delete_autor),
+    #PODCAST
+    path('get_podcasts/',views.get_podcasts),
+    path('get_podcast/<int:id>/',views.get_podcast),
+    path('create_podcast/',views.create_podcast),
+    path('update_podcast/<int:id>',views.update_podcast),
+    path('delete_podcast/<int:id>/',views.delete_podcast)
 
 
 

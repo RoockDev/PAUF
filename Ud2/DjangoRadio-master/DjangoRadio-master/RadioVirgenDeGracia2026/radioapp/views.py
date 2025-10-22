@@ -230,6 +230,59 @@ def delete_autor(request,id):
 
 
 #CRUD PODCASTS
+#get obtener todos los podcasts
+def get_podcasts(request):
+    if request.method == 'GET':
+            podcasts = list(Podcast.objects.all().values())
+            return JsonResponse(podcasts,safe=False)
+
+#get obtener podcast por id
+def get_podcast(request,id):
+    if request.method == 'GET':
+        try:
+            podcast = Podcast.objects.values().get(pk=id)
+            return JsonResponse(podcast)
+        except Autor.DoesNotExist:
+            return JsonResponse({"Error": "podcast no encontrado"})
+
+#post crear podcast
+@csrf_exempt
+def create_podcast(request):
+    if request.method == 'POST':
+        try:
+            datos = json.loads(request.body)
+            Podcast.objects.create(**datos)
+            return JsonResponse({"Succes": "Podcast creado correctamente"},status=201)
+        except Exception as e:
+            return JsonResponse({"error": str(e)}, status=400)
+#put updatear podcasts
+@csrf_exempt
+def update_podcast(request,id):
+    if request.method == 'PUT':
+        try:
+            podcast = Podcast.objects.get(pk=id)
+            nuevos_datos = json.loads(request.body)
+            podcast.nombre = nuevos_datos.get('nombre',podcast.nombre)
+            podcast.descripcion = nuevos_datos.get('descripcion',podcast.descripcion)
+            podcast.tematica = nuevos_datos.get('tematica',podcast.tematica)
+            return JsonResponse({"Succes": "podcast updateado correctamente"})
+        except Podcast.DoesNotExist:
+            return JsonResponse({"Error": "podcast no encontrado"})
+
+#delete eliminar podcast
+@csrf_exempt
+def delete_podcast(request,id):
+    if request.method == 'DELETE':
+        try:
+            podcast = Podcast.objects.get(pk=id)
+            podcast.delete()
+            return JsonResponse({"Succes":"podcast eliminado con exito"})
+        except Podcast.DoesNotExist:
+            return JsonResponse({"Error":"podcast no encontrado"})
+
+
+#REPRODUCCION
+
 
 
 
