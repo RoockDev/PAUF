@@ -1,9 +1,9 @@
 import json
 from csv import excel
-from getpass import fallback_getpass
 from http.client import responses
 from idlelib.pyshell import usage_msg
 from sys import exc_info
+from wsgiref.util import request_uri
 
 from django.shortcuts import render
 from django.views.decorators.csrf import csrf_exempt
@@ -282,8 +282,54 @@ def delete_podcast(request,id):
 
 
 #REPRODUCCION
+#get obtener todas las reproducciones
+def get_reproducciones(request):
+    if request.method == 'GET':
+        reproducciones = list(Reproduccion.objects.all().values())
+        return JsonResponse(reproducciones,safe=False)
 
+#get obtener reproduccion por Id
+def get_reproduccion(request,id):
+    if request.method == 'GET':
+        try:
+         reproduccion = Reproduccion.objects.values().get(pk=id)
+         return JsonResponse(reproduccion)
+        except Reproduccion.DoesNotExist:
+            return JsonResponse({"Error":"reproduccion no encontrada"})
 
+#post crear reproduccion
+@csrf_exempt
+def create_reproduccion(request):
+    if request.method == 'POST':
+        try:
+            datos = json.loads(request.body)
+            Reproduccion.objects.create(**datos)
+            return JsonResponse({"Succes": "reproduccion creada correctamente"},status=201)
+        except Exception as e:
+            return JsonResponse({"Error": str(e)},status = 400)
+
+#put updatear reproduccion
+def update_reproduccion(request,id):
+    if request.method == 'PUT':
+        try:
+            reproduccion = Reproduccion.objects.get(pk=id)
+            nuevos_datos = json.loads(request.body)
+            reproduccion.usuario = nuevos_datos.get('usuario_id',reproduccion.usuario)
+            reproduccion.cancion = nuevos_datos.get('cancion_id', reproduccion.cancion)
+            reproduccion.podcast = nuevos_datos.get('podcast_id',reproduccion.podcast)
+            reproduccion.fecha_reproduccion = nuevos_datos.get('fecha_reproduccion',reproduccion.fecha_reproduccion)
+            return JsonResponse({"Succes": "reproduccion updateada con exito"})
+        except Reproduccion.DoesNotExist:
+            return JsonResponse({"Error": "Reproduccion no encontrada"})
+#delete eliminar reproduccion
+def delete_reproduccion(request,id):
+    if request.method == 'DELETE':
+        try:
+            reproduccion = Reproduccion.objects.get(pk=id)
+            reproduccion.delete()
+            return JsonResponse({"Succes": "Reproduccion eliminada correctamente"})
+        except Reproduccion.DoesNotExist:
+            return JsonResponse({"Error": "Reproducion no encontrada"})
 
 
 

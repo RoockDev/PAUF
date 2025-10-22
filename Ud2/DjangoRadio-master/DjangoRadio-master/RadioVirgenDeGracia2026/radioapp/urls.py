@@ -31,7 +31,13 @@ urlpatterns = [
     path('get_podcast/<int:id>/',views.get_podcast),
     path('create_podcast/',views.create_podcast),
     path('update_podcast/<int:id>',views.update_podcast),
-    path('delete_podcast/<int:id>/',views.delete_podcast)
+    path('delete_podcast/<int:id>/',views.delete_podcast),
+    #REPRODUCCION
+    path('get_reproducciones/',views.get_reproducciones),
+    path('get_reproduccion/<int:id>/',views.get_reproduccion),
+    path('create_reproduccion/',views.create_reproduccion),
+    path('update_reproduccion/<int:id>',views.update_reproduccion),
+    path('delete_reproduccion/<int:id>/',views.delete_reproduccion)
 
 
 
