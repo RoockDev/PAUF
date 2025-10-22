@@ -1,6 +1,9 @@
 import json
+from csv import excel
 from getpass import fallback_getpass
+from http.client import responses
 from idlelib.pyshell import usage_msg
+from sys import exc_info
 
 from django.shortcuts import render
 from django.views.decorators.csrf import csrf_exempt
@@ -169,6 +172,64 @@ def delete_direccion(request,id):
         except Direccion.DoesNotExist:
             return JsonResponse({"error":"direccion no encontrada"})
 
+
+#CRUD AUTOR
+#Get obtener todos los autores
+def get_autores(request):
+    if request.method == 'GET':
+        try:
+            autores = list(Autor.objects.all().values())
+            return  JsonResponse(autores,safe=False)
+        except Exception as e:
+            return JsonResponse({"error": "no se encontraton autores"})
+
+#Get obtener un autor por id
+def get_autor(request,id):
+    if request.method == 'GET':
+        try:
+            autor = Autor.objects.values().get(pk=id)
+            return JsonResponse(autor)
+        except Autor.DoesNotExist:
+            return  JsonResponse({"error": "Autor no encontrado"})
+
+#Post crear un autor
+@csrf_exempt
+def create_autor(request):
+    if request.method == 'POST':
+      try:
+        datos = json.loads(request.body)
+        Autor.objects.create(**datos)
+        return JsonResponse({"Succes":"Autor creado correctamente"},status=201)
+      except Exception as e:
+          return JsonResponse({"Error": str(e)}, status=400)
+
+#put updatear un autor
+@csrf_exempt
+def update_autor(request,id):
+    if request.method == 'PUT':
+        try:
+            autor = Autor.objects.get(pk=id)
+            nuevos_datos = json.loads(request.body)
+            autor.nombre = nuevos_datos.get('nombre',autor.nombre)
+            autor.apellido = nuevos_datos.get('apellido',autor.apellido)
+            autor.genero = nuevos_datos.get('genero',autor.genero)
+            return JsonResponse({"Succes": "Autor updateado correctamente"})
+        except Autor.DoesNotExist:
+            return JsonResponse({"Error": "Autor no encontrado"})
+
+#delete eliminar autor
+@csrf_exempt
+def delete_autor(request,id):
+    if request.method == 'DELETE':
+        try:
+            autor = Autor.objects.get(pk=id)
+            autor.delete()
+            return JsonResponse({"Succes": "Autor eliminado correctamente"})
+        except Autor.DoesNotExist:
+            return JsonResponse({"Error": "Autor no encontrado"})
+
+
+#CRUD PODCASTS
 
 
 

@@ -19,7 +19,13 @@ urlpatterns = [
     path('get_direccion/<int:id>/',views.get_direccion),
     path('add_direccion/',views.add_direccion),
     path('update_direccion/<int:id>/',views.update_direccion),
-    path('delete_direccion/<int:id>/',views.delete_direccion)
+    path('delete_direccion/<int:id>/',views.delete_direccion),
+    #AUTOR
+    path('get_autores/',views.get_autores),
+    path('get_autor/<int:id>/',views.get_autor),
+    path('create_autor/',views.create_autor),
+    path('update_autor/<int:id>/',views.update_autor),
+    path('delete_autor/<int:id>/',views.delete_autor)
 
 
 
