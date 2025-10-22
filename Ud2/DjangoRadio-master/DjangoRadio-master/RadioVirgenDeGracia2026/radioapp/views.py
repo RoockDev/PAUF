@@ -114,6 +114,61 @@ def update_usuario(request,id):
 
 
 
+#-----CRUD DIRECCION
+
+#get obtener todas las direcciones
+def get_direcciones(request):
+    if request.method == 'GET':
+        direcciones = list(Direccion.objects.all().values())
+        return JsonResponse(direcciones, safe=False)
+
+#get obtener direccion especifica por id
+def get_direccion(request, id):
+    if request.method == 'GET':
+        try:
+            direccion = Direccion.objects.values().get(pk=id)
+            return JsonResponse(direccion)
+        except Direccion.DoesNotExist:
+            return JsonResponse({"Error":"direccion no encontrado"},status=404)
+
+#post añadir una direccion
+@csrf_exempt
+def add_direccion(request):
+    if request.method == 'POST':
+        try:
+            datos = json.loads(request.body)
+            Direccion.objects.create(**datos)
+            return JsonResponse({"mensaje":" direccion creada correctamente"},status=201)
+        except Exception as e:
+            return JsonResponse({"error": str(e)}, status=400)
+
+
+#put updatear direccion
+@csrf_exempt
+def update_direccion(request,id):
+    if request.method == 'PUT':
+        try:
+            direccion = Direccion.objects.get(pk=id)
+            nuevos_datos = json.loads(request.body)
+            direccion.calle = nuevos_datos.get('calle',direccion.calle)
+            direccion.numero = nuevos_datos.get('numero',direccion.numero)
+            direccion.ciudad = nuevos_datos.get('ciudad',direccion.ciudad)
+            direccion.save()
+            return JsonResponse({"mensaje": "direccion actualizada correctamente"})
+        except Direccion.DoesNotExist:
+            return JsonResponse({"error": "direccion no encontrada"})
+
+#delete borrar direccion
+@csrf_exempt
+def delete_direccion(request,id):
+    if request.method == 'DELETE':
+        try:
+            direccion = Direccion.objects.get(pk=id)
+            direccion.delete()
+            return JsonResponse({"mensaje":"direccion eliminada correctamente"})
+        except Direccion.DoesNotExist:
+            return JsonResponse({"error":"direccion no encontrada"})
+
 
 
 

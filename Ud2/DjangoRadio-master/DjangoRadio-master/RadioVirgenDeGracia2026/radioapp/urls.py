@@ -13,7 +13,14 @@ urlpatterns = [
     path('get_usuario/<int:id>/',views.get_usuario),
     path('add_usuario/',views.add_usuario),
     path('delete_usuario/<int:id>/',views.delete_usuario),
-    path('update_usuario/<int:id>/',views.update_usuario)
+    path('update_usuario/<int:id>/',views.update_usuario),
+    #DIRECCION
+    path('get_direcciones/',views.get_direcciones),
+    path('get_direccion/<int:id>/',views.get_direccion),
+    path('add_direccion/',views.add_direccion),
+    path('update_direccion/<int:id>/',views.update_direccion),
+    path('delete_direccion/<int:id>/',views.delete_direccion)
+
 
 
 ]
