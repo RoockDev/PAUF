@@ -1,0 +1,21 @@
+header {
+    background-color:red;
+    padding:10px;
+    width: 100%;
+}
+body {
+    background-color: grey;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+    width: 100%;
+}
+
+footer p {
+    color: white;
+}
