@@ -1,0 +1,43 @@
+### Crear programador
+POST http://localhost:8081/api/programadores
+Content-Type: application/json
+
+{
+  "nombre": "Juann",
+  "email": "juan@example.com",
+  "rol": "DEV",
+  "capacidadHoras": 40
+}
+
+### Buscar por nombre
+GET http://localhost:8081/api/programadores?nombre=Juan
+
+### Buscar programadores por rol
+GET http://localhost:8081/api/programadores/rol/DEV
+
+### Buscar programador por id
+GET http://localhost:8081/api/programadores/1
+
+### Crear tarea
+POST http://localhost:8081/api/tareas
+Content-Type: application/json
+
+{
+  "titulo": "Arreglar bug login",
+  "descripcion": "No funciona cuando el usuario introduce credenciales incorrectas",
+  "storyPoints": 5,
+  "prioridad": "HIGH",
+  "estado": "TODO",
+  "estimacionHoras": 4,
+  "horasInvertidas": 0,
+  "programadorId": 1
+}
+
+### Buscar tarea por id
+GET http://localhost:8081/api/tareas/1
+
+### Listar todas las tareas
+GET http://localhost:8081/api/tareas
+
+
+
