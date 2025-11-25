@@ -2,6 +2,7 @@ package com.daw.scrum.dto;
 
 import com.daw.scrum.model.Prioridad;
 import com.daw.scrum.model.Estado;
+import com.daw.scrum.model.PrioridadEntity;
 
 import java.time.LocalDateTime;
 
@@ -10,8 +11,27 @@ public class TareaDTO {
     private String titulo;
     private String descripcion;
     private Integer storyPoints;
-    private Prioridad prioridad;
-    private Estado estado;
+
+    public PrioridadEntity getPrioridad() {
+        return prioridad;
+    }
+
+    public void setPrioridad(PrioridadEntity prioridad) {
+        this.prioridad = prioridad;
+    }
+
+    private PrioridadEntity prioridad;
+
+    public Long getEstadoId() {
+        return estadoId;
+    }
+
+    public void setEstadoId(Long estadoId) {
+        this.estadoId = estadoId;
+    }
+
+    private Long estadoId;
+
     private Integer estimacionHoras;
     private Integer horasInvertidas;
     private LocalDateTime fechaCreacion;
@@ -51,21 +71,9 @@ public class TareaDTO {
         this.storyPoints = storyPoints;
     }
 
-    public Prioridad getPrioridad() {
-        return prioridad;
-    }
 
-    public void setPrioridad(Prioridad prioridad) {
-        this.prioridad = prioridad;
-    }
 
-    public Estado getEstado() {
-        return estado;
-    }
 
-    public void setEstado(Estado estado) {
-        this.estado = estado;
-    }
 
     public Integer getEstimacionHoras() {
         return estimacionHoras;

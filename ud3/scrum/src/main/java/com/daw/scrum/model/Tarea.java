@@ -3,6 +3,10 @@ import jakarta.persistence.*;
 import java.time.LocalDateTime;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.JoinColumn;
+import com.daw.scrum.model.PrioridadEntity;
+import com.daw.scrum.model.EstadoEntity;
+
+
 
 
 @Entity
@@ -44,21 +48,8 @@ public class Tarea {
   this.storyPoints = storyPoints;
  }
 
- public Prioridad getPrioridad() {
-  return prioridad;
- }
 
- public void setPrioridad(Prioridad prioridad) {
-  this.prioridad = prioridad;
- }
 
- public Estado getEstado() {
-  return estado;
- }
-
- public void setEstado(Estado estado) {
-  this.estado = estado;
- }
 
  public Integer getEstimacionHoras() {
   return estimacionHoras;
@@ -103,12 +94,33 @@ public class Tarea {
  private String titulo;
     private String descripcion;
     private Integer storyPoints;
-    @Enumerated(EnumType.STRING)
-    private Prioridad prioridad;
-    @Enumerated(EnumType.STRING)
-    private Estado estado;
 
-    private Integer estimacionHoras;
+ public PrioridadEntity getPrioridad() {
+  return prioridad;
+ }
+
+ public void setPrioridad(PrioridadEntity prioridad) {
+  this.prioridad = prioridad;
+ }
+
+ @ManyToOne
+   @JoinColumn(name = "prioridad_id", nullable = false)
+   private PrioridadEntity prioridad;
+
+ public EstadoEntity getEstado() {
+  return estado;
+ }
+
+ public void setEstado(EstadoEntity estado) {
+  this.estado = estado;
+ }
+
+ @ManyToOne
+ @JoinColumn(name = "estado_id", nullable = false)
+ private EstadoEntity estado;
+
+
+ private Integer estimacionHoras;
     private Integer horasInvertidas;
 
     private LocalDateTime fechaCreacion;

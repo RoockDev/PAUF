@@ -7,6 +7,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+
+
+import com.daw.scrum.repository.EstadoRepository;
+import com.daw.scrum.repository.PrioridadRepository;
 import com.daw.scrum.repository.TareaRepository;
 import com.daw.scrum.repository.ProgramadorRepository;
 import org.springframework.stereotype.Service;
@@ -15,12 +19,23 @@ import org.springframework.stereotype.Service;
 public class TareaService {
 
     private final TareaRepository tareaRepository;
+    private final PrioridadRepository prioridadRepository;
     private final ProgramadorRepository programadorRepository;
+    private final EstadoRepository estadoRepository;
 
-    public TareaService(TareaRepository tareaRepository, ProgramadorRepository programadorRepository) {
+
+
+    public TareaService(TareaRepository tareaRepository,
+                        ProgramadorRepository programadorRepository,
+                        PrioridadRepository prioridadRepository,
+                        EstadoRepository estadoRepository) {
         this.tareaRepository = tareaRepository;
         this.programadorRepository = programadorRepository;
+        this.prioridadRepository = prioridadRepository;
+        this.estadoRepository = estadoRepository;
     }
+
+
 
 
     private TareaDTO toDTO(Tarea tarea) {
@@ -33,14 +48,22 @@ public class TareaService {
         dto.setTitulo(tarea.getTitulo());
         dto.setDescripcion(tarea.getDescripcion());
         dto.setStoryPoints(tarea.getStoryPoints());
-        dto.setPrioridad(tarea.getPrioridad());
-        dto.setEstado(tarea.getEstado());
         dto.setEstimacionHoras(tarea.getEstimacionHoras());
         dto.setHorasInvertidas(tarea.getHorasInvertidas());
         dto.setFechaCreacion(tarea.getFechaCreacion());
         dto.setFechaActualizacion(tarea.getFechaActualizacion());
 
-        // programadorId viene de la entidad Programador
+
+        if (tarea.getEstado() != null) {
+            dto.setEstadoId(tarea.getEstado().getId());
+        }
+
+
+        if (tarea.getPrioridad() != null) {
+            dto.setId(tarea.getPrioridad().getId());
+        }
+
+
         if (tarea.getProgramador() != null) {
             dto.setProgramadorId(tarea.getProgramador().getId());
         }
@@ -51,30 +74,40 @@ public class TareaService {
 
 
     private Tarea toEntity(TareaDTO dto) {
-        if (dto == null) {
-            return null;
-        }
+        if (dto == null) return null;
 
         Tarea tarea = new Tarea();
         tarea.setId(dto.getId());
         tarea.setTitulo(dto.getTitulo());
         tarea.setDescripcion(dto.getDescripcion());
         tarea.setStoryPoints(dto.getStoryPoints());
-        tarea.setPrioridad(dto.getPrioridad());
-        tarea.setEstado(dto.getEstado());
         tarea.setEstimacionHoras(dto.getEstimacionHoras());
         tarea.setHorasInvertidas(dto.getHorasInvertidas());
         tarea.setFechaCreacion(dto.getFechaCreacion());
         tarea.setFechaActualizacion(dto.getFechaActualizacion());
 
+
+        if (dto.getId() != null) {
+            prioridadRepository.findById(dto.getId())
+                    .ifPresent(tarea::setPrioridad);
+        }
+
+
+        if (dto.getEstadoId() != null) {
+            estadoRepository.findById(dto.getEstadoId())
+                    .ifPresent(tarea::setEstado);
+        }
+
+
         if (dto.getProgramadorId() != null) {
-            Optional<Programador> programadorOpt = programadorRepository.findById(dto.getProgramadorId());
-            programadorOpt.ifPresent(tarea::setProgramador);
-            // si no existe, podríamos lanzar excepción, pero de momento lo dejamos así
+            programadorRepository.findById(dto.getProgramadorId())
+                    .ifPresent(tarea::setProgramador);
         }
 
         return tarea;
     }
+
+
 
     public TareaDTO crearTarea(TareaDTO dto) {
         // DTO -> entidad

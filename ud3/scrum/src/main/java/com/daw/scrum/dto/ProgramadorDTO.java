@@ -27,13 +27,6 @@ public class ProgramadorDTO {
         this.email = email;
     }
 
-    public Rol getRol() {
-        return rol;
-    }
-
-    public void setRol(Rol rol) {
-        this.rol = rol;
-    }
 
     public Integer getCapacidadHoras() {
         return capacidadHoras;
@@ -46,7 +39,17 @@ public class ProgramadorDTO {
     private Long id;
     private String nombre;
     private String email;
-    private Rol rol;
+
+    public Long getRolId() {
+        return rolId;
+    }
+
+    public void setRolId(Long rolId) {
+        this.rolId = rolId;
+    }
+
+    private Long rolId;
+
     private Integer capacidadHoras;
 
 }

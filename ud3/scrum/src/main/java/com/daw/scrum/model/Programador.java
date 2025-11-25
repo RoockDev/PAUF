@@ -1,4 +1,8 @@
 package com.daw.scrum.model;
+import com.daw.scrum.model.RolEntity;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.JoinColumn;
+
 
 import jakarta.persistence.*;
 
@@ -37,13 +41,7 @@ public class Programador {
         this.email = email;
     }
 
-    public Rol getRol() {
-        return rol;
-    }
 
-    public void setRol(Rol rol) {
-        this.rol = rol;
-    }
 
     public Integer getCapacidadHoras() {
         return capacidadHoras;
@@ -53,8 +51,18 @@ public class Programador {
         this.capacidadHoras = capacidadHoras;
     }
 
-    @Enumerated(EnumType.STRING)
-    private Rol rol;
+    public RolEntity getRol() {
+        return rol;
+    }
+
+    public void setRol(RolEntity rol) {
+        this.rol = rol;
+    }
+
+    @ManyToOne
+    @JoinColumn(name = "rol_id", nullable = false)
+    private RolEntity rol;
+
 
     private Integer capacidadHoras;
 

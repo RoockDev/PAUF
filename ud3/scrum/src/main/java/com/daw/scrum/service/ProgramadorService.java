@@ -1,6 +1,8 @@
 package com.daw.scrum.service;
 import com.daw.scrum.model.Programador;
 import com.daw.scrum.dto.ProgramadorDTO;
+import com.daw.scrum.repository.RolRepository;
+
 
 
 import com.daw.scrum.model.Rol;
@@ -13,13 +15,18 @@ import java.util.ArrayList;
 public class ProgramadorService {
 
     private final ProgramadorRepository programadorRepository;
+    private final RolRepository rolRepository;
 
-    public ProgramadorService(ProgramadorRepository programadorRepository) {
+
+    public ProgramadorService(ProgramadorRepository programadorRepository,
+                              RolRepository rolRepository) {
         this.programadorRepository = programadorRepository;
+        this.rolRepository = rolRepository;
     }
 
-    private ProgramadorDTO toDTO(Programador programador){
-        if(programador == null){
+
+    private ProgramadorDTO toDTO(Programador programador) {
+        if (programador == null) {
             return null;
         }
 
@@ -27,14 +34,19 @@ public class ProgramadorService {
         dto.setId(programador.getId());
         dto.setNombre(programador.getNombre());
         dto.setEmail(programador.getEmail());
-        dto.setRol(programador.getRol());
         dto.setCapacidadHoras(programador.getCapacidadHoras());
+
+
+        if (programador.getRol() != null) {
+            dto.setRolId(programador.getRol().getId());
+        }
 
         return dto;
     }
 
-    private Programador toEntity(ProgramadorDTO dto){
-        if (dto == null){
+
+    private Programador toEntity(ProgramadorDTO dto) {
+        if (dto == null) {
             return null;
         }
 
@@ -42,12 +54,17 @@ public class ProgramadorService {
         programador.setId(dto.getId());
         programador.setNombre(dto.getNombre());
         programador.setEmail(dto.getEmail());
-        programador.setRol(dto.getRol());
         programador.setCapacidadHoras(dto.getCapacidadHoras());
 
-        return programador;
+        // ROL (nuevo)
+        if (dto.getRolId() != null) {
+            rolRepository.findById(dto.getRolId())
+                    .ifPresent(programador::setRol);
+        }
 
+        return programador;
     }
+
 
     public List<ProgramadorDTO> buscarPorNombre(String nombre){
         List<Programador> programadores = programadorRepository.findByNombreContainingIgnoreCase(nombre);
