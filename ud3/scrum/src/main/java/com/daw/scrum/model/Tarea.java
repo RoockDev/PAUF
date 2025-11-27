@@ -5,6 +5,8 @@ import jakarta.persistence.ManyToOne;
 import jakarta.persistence.JoinColumn;
 import com.daw.scrum.model.PrioridadEntity;
 import com.daw.scrum.model.EstadoEntity;
+import java.util.List;
+import java.util.ArrayList;
 
 
 
@@ -119,6 +121,18 @@ public class Tarea {
  @JoinColumn(name = "estado_id", nullable = false)
  private EstadoEntity estado;
 
+ public Sprint getSprint() {
+  return sprint;
+ }
+
+ public void setSprint(Sprint sprint) {
+  this.sprint = sprint;
+ }
+
+ @ManyToOne
+ @JoinColumn(name = "sprint_id")
+ private Sprint sprint;
+
 
  private Integer estimacionHoras;
     private Integer horasInvertidas;
@@ -131,5 +145,21 @@ public class Tarea {
     private Programador programador;
 
 
+ // RELACIÓN MUCHOS A MUCHOS
+ @ManyToMany
+ @JoinTable(
+         name = "tarea_etiquetas",                  // Nombre de la tabla intermedia que se creará sola
+         joinColumns = @JoinColumn(name = "tarea_id"),
+         inverseJoinColumns = @JoinColumn(name = "etiqueta_id")
+ )
+ private List<EtiquetaEntity> etiquetas = new ArrayList<>();
 
+
+ public List<EtiquetaEntity> getEtiquetas() {
+  return etiquetas;
+ }
+
+ public void setEtiquetas(List<EtiquetaEntity> etiquetas) {
+  this.etiquetas = etiquetas;
+ }
 }

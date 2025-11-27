@@ -31,4 +31,12 @@ public class TareaController {
         return tareaService.listarTodas();
     }
 
+    //endpoint para el ejercicio evaluable que ha mandado Fran
+
+    @GetMapping("/sprint/{sprintId}")
+    public List<TareaDTO> listarPorSprint(@PathVariable Long sprintId){
+        //le pedimos al servicio que busque las tareas de ese sprint
+        return tareaService.buscarPorSprint(sprintId);
+    }
+
 }

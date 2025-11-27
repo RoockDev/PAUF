@@ -1,11 +1,10 @@
 package com.daw.scrum.service;
 import com.daw.scrum.model.Programador;
 import com.daw.scrum.dto.ProgramadorDTO;
+import com.daw.scrum.model.RolEntity;
 import com.daw.scrum.repository.RolRepository;
 
 
-
-import com.daw.scrum.model.Rol;
 import com.daw.scrum.repository.ProgramadorRepository;
 import org.springframework.stereotype.Service;
 import java.util.List;
@@ -90,13 +89,21 @@ public class ProgramadorService {
 
     }
 
-    public List<ProgramadorDTO> buscarPorRol(Rol rol){
-        List<Programador> programadores = programadorRepository.findByRol(rol);
-        List<ProgramadorDTO> resultado = new ArrayList<>();
+    public List<ProgramadorDTO> buscarPorRol(Long rolId){
+        // Buscar el rol en la base de datos
+        RolEntity rol = rolRepository.findById(rolId).orElse(null);
 
+        if (rol == null){
+            return new ArrayList<>();
+        }
+
+        List<Programador> programadores = programadorRepository.findByRol(rol);
+
+        List<ProgramadorDTO> resultado = new ArrayList<>();
         for (Programador p: programadores){
             resultado.add(toDTO(p));
         }
+
         return resultado;
     }
 

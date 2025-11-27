@@ -1,10 +1,8 @@
 package com.daw.scrum.controller;
 
 import com.daw.scrum.dto.ProgramadorDTO;
-import com.daw.scrum.model.Programador;
 import com.daw.scrum.repository.ProgramadorRepository;
 import com.daw.scrum.service.ProgramadorService;
-import com.daw.scrum.model.Rol;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -33,9 +31,9 @@ public class ProgramadorController {
         return programadorService.crearProgramador(dto);
     }
 
-    @GetMapping("/rol/{rol}")
-    public List<ProgramadorDTO> buscarPorRol(@PathVariable Rol rol) {
-        return programadorService.buscarPorRol(rol);
+    @GetMapping("/rol/{rolId}")
+    public List<ProgramadorDTO> buscarPorRol(@PathVariable Long rolId) {
+        return programadorService.buscarPorRol(rolId);
     }
 
     @GetMapping("/{id}")

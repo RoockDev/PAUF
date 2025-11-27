@@ -1,7 +1,5 @@
 package com.daw.scrum.dto;
 
-import com.daw.scrum.model.Rol;
-
 public class ProgramadorDTO {
     public Long getId() {
         return id;

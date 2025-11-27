@@ -1,43 +1,47 @@
 package com.daw.scrum.dto;
 
-import com.daw.scrum.model.Prioridad;
-import com.daw.scrum.model.Estado;
-import com.daw.scrum.model.PrioridadEntity;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 public class TareaDTO {
 
+    private Long id;
     private String titulo;
     private String descripcion;
     private Integer storyPoints;
 
-    public PrioridadEntity getPrioridad() {
-        return prioridad;
-    }
-
-    public void setPrioridad(PrioridadEntity prioridad) {
-        this.prioridad = prioridad;
-    }
-
-    private PrioridadEntity prioridad;
-
-    public Long getEstadoId() {
-        return estadoId;
-    }
-
-    public void setEstadoId(Long estadoId) {
-        this.estadoId = estadoId;
-    }
-
+    private Long prioridadId;
     private Long estadoId;
+    private Long programadorId;
 
     private Integer estimacionHoras;
     private Integer horasInvertidas;
     private LocalDateTime fechaCreacion;
     private LocalDateTime fechaActualizacion;
-    private Long programadorId;
-    private Long id;
+
+
+    private Long sprintId;
+
+    public List<Long> getEtiquetaIds() {
+        return etiquetaIds;
+    }
+
+    public void setEtiquetaIds(List<Long> etiquetaIds) {
+        this.etiquetaIds = etiquetaIds;
+    }
+
+    private List<Long> etiquetaIds;
+
+    public Long getSprintId() {
+        return sprintId;
+    }
+
+    public void setSprintId(Long sprintId) {
+        this.sprintId = sprintId;
+    }
+
+    // GETTERS y SETTERS
 
     public Long getId() {
         return id;
@@ -71,9 +75,29 @@ public class TareaDTO {
         this.storyPoints = storyPoints;
     }
 
+    public Long getPrioridadId() {
+        return prioridadId;
+    }
 
+    public void setPrioridadId(Long prioridadId) {
+        this.prioridadId = prioridadId;
+    }
 
+    public Long getEstadoId() {
+        return estadoId;
+    }
 
+    public void setEstadoId(Long estadoId) {
+        this.estadoId = estadoId;
+    }
+
+    public Long getProgramadorId() {
+        return programadorId;
+    }
+
+    public void setProgramadorId(Long programadorId) {
+        this.programadorId = programadorId;
+    }
 
     public Integer getEstimacionHoras() {
         return estimacionHoras;
@@ -106,14 +130,4 @@ public class TareaDTO {
     public void setFechaActualizacion(LocalDateTime fechaActualizacion) {
         this.fechaActualizacion = fechaActualizacion;
     }
-
-    public Long getProgramadorId() {
-        return programadorId;
-    }
-
-    public void setProgramadorId(Long programadorId) {
-        this.programadorId = programadorId;
-    }
-
-
 }
